@@ -10,6 +10,9 @@ jobs:
     name: List Generate
     runs-on: ubuntu-latest
     steps:
+      - name: Checking Repository
+        uses: actions/checkout@v4
+
       - name: Run update langauge script 
         run: python .github/scripts/update-language.py
 
