@@ -2,79 +2,90 @@
 import subprocess
 import json
 from pathlib import Path
+import os
 import requests
+
+# Constants
+MC_VERSION_MANIFEST_URL = "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json"
+GITHUB_REPO_URL = "https://github.com/InventivetalentDev/minecraft-assets"
+GITHUB_REPO_URL_RAW = "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/"
+LANG_DIR = "assets/minecraft/lang"
+LANG_FILES = ["en_us.json", "zh_tw.json"]
 
 def get_remote_branches(repo_url: str):
     """
-    Using git ls-remote to get all branches
+    Get GitHub branch list and return json.
     """
     try:
         output = subprocess.check_output(['git', 'ls-remote', '--heads', repo_url]).decode("utf-8")
         lines = output.strip().split('\n')
         branches = [line.split('\t')[1].split('refs/heads/')[-1] for line in lines]
         return branches
-    except subprocess.CalledProcessError as expect:
-        print(f"Error running 'git ls-remote': {expect}")
+    except subprocess.CalledProcessError as ex:
+        print(f"Error running 'git ls-remote': {ex}")
         return []
 
-def combiner(source_path: str, dest_path: str, template: int, version: str, output_file: Path):
+def fetch_language_file(repo_url: str, version: str, lang_file: str):
     """
-    Combine source and dest language file into one
+    Fetch language file and return json dict
     """
-
-    with open(source_path, "r", encoding="utf8") as source_file, open(dest_path, "r", encoding="utf8") as dest_file, open(output_file, "w", encoding="utf8") as output_f:
-        source_data = json.load(source_file)
-        dest_data = json.load(dest_file)
-
-        output_f.write(f"遊戲版本：{version}\n\n")
-
-        match template:
-            case 0:
-                for key in source_data.keys():
-                    output_f.write(f"翻譯鍵：<{key}>\n")
-                    output_f.write(f"原始英文：{source_data[key]}\n")
-                    output_f.write(f"繁體中文：{dest_data.get(key, '')}\n\n")
-            case 1:
-                for key in source_data.keys():
-                    output_f.write(f"翻譯鍵：<{key}>\n")
-                    output_f.write(f"繁體中文：{source_data[key]}\n")
-                    output_f.write(f"簡體中文：{dest_data.get(key, '')}\n\n")
-
-def download_language_file(version: str, path: str):
-    """
-    Download language files
-    """
-    urls = {
-        f"https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/{version}/assets/minecraft/lang/en_us.json",
-        f"https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/{version}/assets/minecraft/lang/zh_tw.json"
-    }
-
-    for url in urls:
+    url = f"{repo_url}/{version}/{LANG_DIR}/{lang_file}"
+    try:
         response = requests.get(url, timeout=6)
+        response.raise_for_status()
+        return json.loads(response.content)
+    except requests.exceptions.RequestException as ex:
+        print(f"Error fetching language file '{lang_file}': {ex}")
+        return {}
 
-        if response.status_code == 200:
-            filename = url.split("/")[-1]
+def combine_and_write_language_files(source_data: dict, dest_data: dict, template: int, version: str, directory_path: Path, output_name: str):
+    """
+    Using source data and dest data json dict, combine together and output a file
+    """
 
-            if not Path(path).exists():
-                Path(path).mkdir()
-            filepath = Path.cwd().joinpath(path, filename)
+    if not directory_path.exists():
+        Path.mkdir(directory_path)
 
-            with open(filepath, "wb") as file:
-                file.write(response.content)
+    with open(directory_path.joinpath(f"{output_name}"), "w", encoding="utf8") as output_f:
+        output_f.write(f"遊戲版本：{version}\n\n")
+        for key in source_data.keys():
+            output_f.write(f"翻譯鍵：<{key}>\n")
+            if template == 0:
+                output_f.write(f"原始英文：{source_data[key]}\n")
+                output_f.write(f"繁體中文：{dest_data.get(key, '')}\n\n")
+            elif template == 1:
+                output_f.write(f"翻譯鍵：<{key}>\n")
+                output_f.write(f"繁體中文：{source_data[key]}\n")
+                output_f.write(f"簡體中文：{dest_data.get(key, '')}\n\n")
+
+def github_output(output_name: str, output_content: str):
+    """
+    Simple output step content
+    """
+
+    with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf8") as env:
+        env.write(f"{output_name}={output_content}")
 
 if __name__ == "__main__":
-    # Get assets branches list
-    github_repo_url = "https://github.com/InventivetalentDev/minecraft-assets"
-    branches_list = get_remote_branches(github_repo_url)
+    branches_list = get_remote_branches(GITHUB_REPO_URL)
 
-    # Get latest game version
-    mc_version_manifest = json.loads(requests.get("https://launchermeta.mojang.com/mc/game/version_manifest_v2.json", timeout=6).content)
+    mc_version_manifest = json.loads(requests.get(MC_VERSION_MANIFEST_URL, timeout=6).content)
     latest_game_version = mc_version_manifest["latest"]["release"]
 
-    if latest_game_version in branches_list:
-        download_language_file(latest_game_version, "latest")
-        combiner(Path("latest/en_us.json"), Path("latest/zh_tw.json"), 0, latest_game_version, Path("latest/list.txt"))
-        Path("latest/en_us.json").unlink()
-        Path("latest/zh_tw.json").unlink()
-    else:
-        print("專案尚未包含最新版內容！")
+    generate_list = ["1.18.2", "1.19.4", "1.20.2"]
+
+    for i in generate_list:
+        lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, i, LANG_FILES[0])
+        lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, i, LANG_FILES[1])
+        combine_and_write_language_files(lang_source, lang_dest, 0, i, Path(i), "list.txt")
+
+    github_output("mc_version", latest_game_version)
+
+    # if latest_game_version in branches_list:
+    #     lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[0])
+    #     lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[1])
+    #     dir_path = Path(latest_game_version)
+    #     output_file_name = "list.txt"
+    #     combine_and_write_language_files(lang_source, lang_dest, 0, latest_game_version, dir_path, output_file_name)
+    # else:
+    #     print("專案尚未包含最新版內容！")

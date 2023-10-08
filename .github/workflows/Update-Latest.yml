@@ -13,10 +13,12 @@ jobs:
       - name: Checking Repository
         uses: actions/checkout@v4
 
-      - name: Run update langauge script 
+      - name: Run update langauge script
+        id: mc
         run: python .github/scripts/update-language.py
 
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
+            message: "chore: 更新 Minecraft ${{ steps.mc.outputs.mc_version }} 對照表"
