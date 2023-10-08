@@ -72,20 +72,13 @@ if __name__ == "__main__":
     mc_version_manifest = json.loads(requests.get(MC_VERSION_MANIFEST_URL, timeout=6).content)
     latest_game_version = mc_version_manifest["latest"]["release"]
 
-    generate_list = ["1.18.2", "1.19.4", "1.20.2"]
-
-    for i in generate_list:
-        lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, i, LANG_FILES[0])
-        lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, i, LANG_FILES[1])
-        combine_and_write_language_files(lang_source, lang_dest, 0, i, Path(i), "list.txt")
+    if latest_game_version in branches_list:
+        lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[0])
+        lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[1])
+        dir_path = Path(latest_game_version)
+        output_file_name = "list.txt"
+        combine_and_write_language_files(lang_source, lang_dest, 0, latest_game_version, dir_path, output_file_name)
+    else:
+        print("專案尚未包含最新版內容！")
 
     github_output("mc_version", latest_game_version)
-
-    # if latest_game_version in branches_list:
-    #     lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[0])
-    #     lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[1])
-    #     dir_path = Path(latest_game_version)
-    #     output_file_name = "list.txt"
-    #     combine_and_write_language_files(lang_source, lang_dest, 0, latest_game_version, dir_path, output_file_name)
-    # else:
-    #     print("專案尚未包含最新版內容！")
