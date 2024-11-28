@@ -24,7 +24,8 @@ jobs:
         run: python .github/scripts/update-language.py
 
       - name: Commit & Push changes
-        uses: actions-js/push@master
+        uses: GuillaumeFalourd/git-commit-push@v1.3
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            message: "chore: 更新 Minecraft ${{ steps.mc.outputs.mc_version }} 對照表"
+          name: github-actions[bot]
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: "chore: 更新 Minecraft ${{ steps.mc.outputs.mc_version }} 對照表"
