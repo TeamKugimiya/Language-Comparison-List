@@ -64,8 +64,8 @@ def github_output(output_name: str, output_content: str):
     Simple output step content
     """
 
-    # with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf8") as env:
-    #     env.write(f"{output_name}={output_content}")
+    with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf8") as env:
+        env.write(f"{output_name}={output_content}")
 
 if __name__ == "__main__":
     branches_list = get_remote_branches(GITHUB_REPO_URL)
