@@ -6,7 +6,7 @@ on:
     - cron: 0 0 * * 1
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   list_generate:
@@ -28,4 +28,5 @@ jobs:
         with:
           name: github-actions[bot]
           email: 41898282+github-actions[bot]@users.noreply.github.com
+          access_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: "chore: 更新 Minecraft ${{ steps.mc.outputs.mc_version }} 對照表"
