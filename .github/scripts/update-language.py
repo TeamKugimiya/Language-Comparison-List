@@ -1,9 +1,10 @@
 """A simple script for auto update latest"""
-import subprocess
-import json
-from pathlib import Path
 import os
+import sys
+import json
 import requests
+import subprocess
+from pathlib import Path
 
 # Constants
 MC_VERSION_MANIFEST_URL = "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json"
@@ -63,8 +64,8 @@ def github_output(output_name: str, output_content: str):
     Simple output step content
     """
 
-    with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf8") as env:
-        env.write(f"{output_name}={output_content}")
+    # with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf8") as env:
+    #     env.write(f"{output_name}={output_content}")
 
 if __name__ == "__main__":
     branches_list = get_remote_branches(GITHUB_REPO_URL)
@@ -72,13 +73,24 @@ if __name__ == "__main__":
     mc_version_manifest = json.loads(requests.get(MC_VERSION_MANIFEST_URL, timeout=6).content)
     latest_game_version = mc_version_manifest["latest"]["release"]
 
-    if latest_game_version in branches_list:
-        lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[0])
-        lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[1])
-        dir_path = Path(latest_game_version)
-        output_file_name = "list.txt"
-        combine_and_write_language_files(lang_source, lang_dest, 0, latest_game_version, dir_path, output_file_name)
+    if len(sys.argv) >= 2:
+        version = sys.argv[1]
+        if sys.argv[1] in branches_list:
+            lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, version, LANG_FILES[0])
+            lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, version, LANG_FILES[1])
+            dir_path = Path(version)
+            output_file_name = "list.txt"
+            combine_and_write_language_files(lang_source, lang_dest, 0, version, dir_path, output_file_name)
+        else:
+            print("錯誤遊戲版本！")
+        github_output("mc_version", sys.argv[1])
     else:
-        print("專案尚未包含最新版內容！")
-
-    github_output("mc_version", latest_game_version)
+        if latest_game_version in branches_list:
+            lang_source = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[0])
+            lang_dest = fetch_language_file(GITHUB_REPO_URL_RAW, latest_game_version, LANG_FILES[1])
+            dir_path = Path(latest_game_version)
+            output_file_name = "list.txt"
+            combine_and_write_language_files(lang_source, lang_dest, 0, latest_game_version, dir_path, output_file_name)
+        else:
+            print("專案尚未包含最新版內容！")
+        github_output("mc_version", latest_game_version)

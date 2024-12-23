@@ -1,7 +1,12 @@
 name: Update Comparison List (Latest)
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "version"
+        required: false
+        type: string
   schedule:
     - cron: 0 0 * * 1
 
@@ -20,13 +25,29 @@ jobs:
           fetch-depth: 0
 
       - name: Run update langauge script
+        if: inputs.version == ''
         id: mc
         run: python .github/scripts/update-language.py
 
+      - name: Run update langauge script
+        if: inputs.version != ''
+        id: mc_version
+        run: python .github/scripts/update-language.py
+
       - name: Commit & Push changes
+        if: inputs.version == ''
         uses: GuillaumeFalourd/git-commit-push@v1.3
         with:
           name: github-actions[bot]
           email: 41898282+github-actions[bot]@users.noreply.github.com
           access_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: "chore: 更新 Minecraft ${{ steps.mc.outputs.mc_version }} 對照表"
+
+      - name: Commit & Push changes
+        if: inputs.version != ''
+        uses: GuillaumeFalourd/git-commit-push@v1.3
+        with:
+          name: github-actions[bot]
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "chore: 更新 Minecraft ${{ steps.mc_version.outputs.mc_version }} 對照表"
