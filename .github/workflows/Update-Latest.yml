@@ -32,7 +32,7 @@ jobs:
       - name: Run update langauge script
         if: inputs.version != ''
         id: mc_version
-        run: python .github/scripts/update-language.py
+        run: python .github/scripts/update-language.py ${{ inputs.version }}
 
       - name: Commit & Push changes
         if: inputs.version == ''
