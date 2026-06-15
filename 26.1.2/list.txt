@@ -10110,7 +10110,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<command.failed>
 原始英文：An unexpected error occurred trying to execute that command
-繁體中文：試圖執行該指令時發生了非預期性錯誤
+繁體中文：試圖執行該指令時發生了非預期的錯誤
 
 翻譯鍵：<command.forkLimit>
 原始英文：Maximum number of contexts (%s) reached
@@ -11138,7 +11138,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.locate.biome.not_found>
 原始英文：Could not find a biome of type "%s" within reasonable distance
-繁體中文：無法在合理距離內找到「%s」類型的生態域
+繁體中文：無法在合理距離內找到 "%s" 類型的生態域
 
 翻譯鍵：<commands.locate.biome.success>
 原始英文：The nearest %s is at %s (%s blocks away)
@@ -11146,7 +11146,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.locate.poi.not_found>
 原始英文：Could not find a point of interest of type "%s" within reasonable distance
-繁體中文：無法在合理距離內找到「%s」類型的興趣點
+繁體中文：無法在合理距離內找到 "%s" 類型的興趣點
 
 翻譯鍵：<commands.locate.poi.success>
 原始英文：The nearest %s is at %s (%s blocks away)
@@ -11274,7 +11274,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.place.template.invalid>
 原始英文：There is no template with id "%s"
-繁體中文：沒有 ID 為「%s」的模板
+繁體中文：沒有 ID 為 "%s" 的模板
 
 翻譯鍵：<commands.place.template.success>
 原始英文：Loaded template "%s" at %s, %s, %s
@@ -11966,7 +11966,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.team.option.nametagVisibility.success>
 原始英文：Nametag visibility for team %s is now "%s"
-繁體中文：隊伍 %s 現在的名稱可見度為「%s」
+繁體中文：隊伍 %s 現在的名牌可見度為「%s」
 
 翻譯鍵：<commands.team.option.nametagVisibility.unchanged>
 原始英文：Nothing changed. Nametag visibility is already that value
@@ -12226,7 +12226,7 @@ Average time per tick: %sms
 
 翻譯鍵：<commands.time.rate>
 原始英文：Clock %s will now advance at %sx normal rate
-繁體中文：時鐘 %s 的速度現為正常速度的 %s 倍
+繁體中文：時鐘 %s 的速度已設定為正常速度的 %s 倍
 
 翻譯鍵：<commands.time.resume>
 原始英文：Resumed clock %s
@@ -12974,7 +12974,7 @@ Average time per tick: %sms
 原始英文：Errors in currently selected data packs prevented the world from loading.
 You can either try to load it with only the vanilla data pack ("safe mode"), or go back to the title screen and fix it manually.
 繁體中文：目前選擇的資料包中發生錯誤，導致世界無法載入。
-你可以嘗試只載入原版資料包（「安全模式」）或是回到標題畫面手動修復。
+您可以嘗試只載入原版資料包（「安全模式」）或是回到標題畫面手動修復。
 
 翻譯鍵：<death.attack.anvil>
 原始英文：%1$s was squashed by a falling anvil
@@ -21246,7 +21246,7 @@ This does not cancel your Realms Subscription.
 
 翻譯鍵：<mco.configure.world.leave.question.line1>
 原始英文：If you leave this Realm you won't see it unless you are invited again
-繁體中文：一旦您離開這個 Realm，除非再次受到邀請，否則您無法再看到它
+繁體中文：一旦您離開了這個 Realm，除非再次受到邀請，否則您無法再看到它
 
 翻譯鍵：<mco.configure.world.leave.question.line2>
 原始英文：Are you sure you want to continue?
@@ -21330,7 +21330,7 @@ Do you want to download it and play?
 
 翻譯鍵：<mco.configure.world.restore.download.question.line1>
 原始英文：The world will be downloaded and added to your single player worlds.
-繁體中文：世界將在下載後加入您的單人遊戲世界中。
+繁體中文：世界將在下載後，加入您的單人遊戲世界中。
 
 翻譯鍵：<mco.configure.world.restore.download.question.line2>
 原始英文：Do you want to continue?
@@ -21988,7 +21988,7 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.selectServer.popup>
 原始英文：Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the realm needs to pay.
-繁體中文：Realms 可以同時讓最多十位好友安全又簡單地享受線上的 Minecraft 世界。 它支援許多小遊戲與大量的自訂世界！只有 Realm 的擁有者需要支付費用。
+繁體中文：Realms 可以同時讓最多10位好友安全又簡單地享受線上的 Minecraft 世界。它支援許多小遊戲與大量的自訂世界！只有 Realm 的擁有者需要支付費用。
 
 翻譯鍵：<mco.selectServer.purchase>
 原始英文：Add Realm
@@ -23800,7 +23800,7 @@ With this option off your name will not show up in such lists.
 
 翻譯鍵：<options.directionalAudio.on.tooltip>
 原始英文：Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF compatible audio hardware, and is best experienced with headphones.
-繁體中文：使用基於 HRTF 的定向音效模擬出更生動的 3D 音訊。必須使用相容 HRTF 音訊的硬體，並透過耳機獲得最佳體驗。
+繁體中文：使用基於 HRTF 的定向音效，模擬出更生動的 3D 音訊。必須使用相容 HRTF 音訊的硬體，並透過耳機獲得最佳體驗。
 
 翻譯鍵：<options.discrete_mouse_scroll>
 原始英文：Discrete Scrolling
@@ -24178,7 +24178,7 @@ This will impact GPU performance.
 
 翻譯鍵：<options.multiplayer.title>
 原始英文：Multiplayer Settings...
-繁體中文：多人遊戲設定...
+繁體中文：在區域網路上公開
 
 翻譯鍵：<options.multiplier>
 原始英文：%sx
@@ -24407,7 +24407,7 @@ This will impact GPU performance.
 翻譯鍵：<options.screenEffectScale.tooltip>
 原始英文：Strength of nausea and Nether portal screen distortion effects.
 At lower values, the nausea effect is replaced with a green overlay.
-繁體中文：噁心狀態效果和地獄傳送門的畫面扭曲程度。
+繁體中文：噁心狀態效果與地獄傳送門的畫面扭曲程度。
 數值較低時，噁心效果將以綠色的視覺效果替代。
 
 翻譯鍵：<options.sensitivity>
