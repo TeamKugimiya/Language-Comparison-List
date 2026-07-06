@@ -1774,7 +1774,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<attribute.name.below_name_distance>
 原始英文：Name Tag Score Distance
-繁體中文：名牌分數距離
+繁體中文：名稱標籤分數距離
 
 翻譯鍵：<attribute.name.block_break_speed>
 原始英文：Block Break Speed
@@ -1962,7 +1962,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<attribute.name.nameplate_distance>
 原始英文：Name Tag Distance
-繁體中文：名牌距離
+繁體中文：名稱標籤距離
 
 翻譯鍵：<attribute.name.oxygen_bonus>
 原始英文：Oxygen Bonus
@@ -11470,7 +11470,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.publish.alreadyPublished>
 原始英文：Multiplayer game is already hosted on port %s
-繁體中文：主機連接埠 %s 上已經建立了多人遊戲
+繁體中文：已經在連接埠 %s 上公開多人遊戲
 
 翻譯鍵：<commands.publish.alreadyPublished.lan>
 原始英文：Local game is already hosted on port %s
@@ -11482,11 +11482,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.publish.failed>
 原始英文：Unable to host local game
-繁體中文：無法公開遊戲至區域網
+繁體中文：無法將遊戲公開至區域網路
 
 翻譯鍵：<commands.publish.started>
 原始英文：Local game hosted on port %s
-繁體中文：已在 %s 連接埠上發布本機遊戲
+繁體中文：已將本機遊戲公開於 %s 連接埠
 
 翻譯鍵：<commands.publish.started.lan>
 原始英文：Local game hosted on port %s
@@ -11498,7 +11498,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.publish.success>
 原始英文：Multiplayer game is now hosted on port %s
-繁體中文：多人遊戲已建立於主機連接埠 %s
+繁體中文：多人遊戲已公開於主機連接埠 %s
 
 翻譯鍵：<commands.random.error.range_too_large>
 原始英文：The range of the random value must be at most 2147483646
@@ -13492,7 +13492,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<death.attack.sulfurCubeHot>
 原始英文：%1$s died because not just the floor is lava
-繁體中文：%1$s 未能察覺不只有地面是熔岩
+繁體中文：%1$s 察覺不只有地面是熔岩
 
 翻譯鍵：<death.attack.sulfurCubeHot.player>
 原始英文：%2$s showed %1$s that not just the floor is lava
@@ -16808,7 +16808,7 @@ Try again later.
 
 翻譯鍵：<gui.friends.toast.join_invite_expired.message>
 原始英文：Invitation to join %s's world has expired.
-繁體中文：加入 %s 世界的邀請已過期。
+繁體中文：加入 %s 的世界邀請已過期。
 
 翻譯鍵：<gui.friends.toast.join_request.message>
 原始英文：%s wants to join your world. Open the Friends list with "%s" or from the game menu.
@@ -16920,7 +16920,7 @@ Try again later.
 
 翻譯鍵：<gui.privacy_link.message>
 原始英文：Open this link to manage your privacy and online safety settings.
-繁體中文：開啟這個連結，以管理隱私權與線上安全設定。
+繁體中文：開啟此連結以管理隱私權與線上安全設定。
 
 翻譯鍵：<gui.privacy_link.title>
 原始英文：Changes to Xbox settings may take some time to apply.
@@ -25218,7 +25218,7 @@ At lower values, the Nausea effect is replaced with a green overlay.
 
 翻譯鍵：<options.sharePresence>
 原始英文：Visibility
-繁體中文：顯示狀態
+繁體中文：上線狀態
 
 翻譯鍵：<options.sharePresence.all>
 原始英文：Full
@@ -31850,7 +31850,7 @@ You can also send in additional feedback to help us keep improving Minecraft.
 
 翻譯鍵：<telemetry.event.p2p_connection.title>
 原始英文：Peer-to-peer Connection
-繁體中文：點對點連線
+繁體中文：P2P 連線
 
 翻譯鍵：<telemetry.event.performance_metrics.description>
 原始英文：Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems. 
