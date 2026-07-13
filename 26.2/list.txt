@@ -8186,7 +8186,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<block.minecraft.poppy>
 原始英文：Poppy
-繁體中文：罌粟
+繁體中文：罌粟花
 
 翻譯鍵：<block.minecraft.potatoes>
 原始英文：Potatoes
@@ -8314,7 +8314,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<block.minecraft.potted_poppy>
 原始英文：Potted Poppy
-繁體中文：罌粟盆栽
+繁體中文：罌粟花盆栽
 
 翻譯鍵：<block.minecraft.potted_red_mushroom>
 原始英文：Potted Red Mushroom
@@ -24748,7 +24748,7 @@ You may ignore this and continue, however support will not be provided for your 
 
 翻譯鍵：<options.graphicsApi.tooltip.vulkan>
 原始英文：Experimental. Might reduce performance or cause instability on some systems.
-繁體中文：實驗性功能。在部分系統上使用可能會降低效能或導致系統不穩定。
+繁體中文：實驗性功能。在部分系統上可能會降低效能或導致系統不穩定。
 
 翻譯鍵：<options.graphicsApi.vulkan>
 原始英文：Prefer Vulkan (Experimental)
@@ -24799,8 +24799,8 @@ With this option on, hidden players will be matched based on chat sender names.
 翻譯鍵：<options.improvedTransparency.tooltip>
 原始英文：An experimental approach that uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.
 This will impact GPU performance.
-繁體中文：使用畫面著色器在半透明方塊及水的後面繪製天氣、雲及粒子的實驗性功能。
-這個設定會影響 GPU 效能。
+繁體中文：實驗性功能，採用無關順序的透明度演算法，可避免視角透過多層半透明物件時常出現的圖形問題。
+這項功能會影響效能。
 
 翻譯鍵：<options.inactivityFpsLimit>
 原始英文：Reduce FPS when
@@ -31846,7 +31846,7 @@ You can also send in additional feedback to help us keep improving Minecraft.
 
 翻譯鍵：<telemetry.event.p2p_connection.description>
 原始英文：This event helps us understand the reliability and performance of peer-to-peer connections between players. It records whether the connection was successful, the type of Interactive Connectivity Establishment (ICE, the protocol we use to establish peer-to-peer connections) candidate used, and how long it took to establish the connection.
-繁體中文：這個事件有助於我們了解玩家之間點對點連線的可靠性與效能。其記錄了連線是否成功、所使用的互動式連線建立（ICE，即我們用於建立點對點連線的協定）候選類型，以及建立連線所花費的時間。
+繁體中文：這個事件有助於我們了解玩家之間 P2P 連線的可靠性與效能。其記錄了連線是否成功、所使用的互動式連線建立（ICE，即我們用於建立 P2P 連線的協定）候選類型，以及建立連線所花費的時間。
 
 翻譯鍵：<telemetry.event.p2p_connection.title>
 原始英文：Peer-to-peer Connection
