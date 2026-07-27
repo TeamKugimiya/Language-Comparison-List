@@ -1022,7 +1022,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<advancements.story.iron_tools.title>
 原始英文：Isn't It Iron Pick
-繁體中文：莫非這是鐵鎬
+繁體中文：莫非這是鐵鎬？
 
 翻譯鍵：<advancements.story.lava_bucket.description>
 原始英文：Fill a Bucket with lava
@@ -1418,7 +1418,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.enum.invalid>
 原始英文：Invalid value "%s"
-繁體中文：無效數值「%s」
+繁體中文：無效數值 '%s'
 
 翻譯鍵：<argument.float.big>
 原始英文：Float must not be more than %s: found %s
@@ -9938,7 +9938,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<chat_restriction.disabled_by_launcher>
 原始英文：Chat is restricted by the launcher
-繁體中文：聊天功能受到啟動器限制
+繁體中文：聊天功能受到啟動器限制。
 
 翻譯鍵：<chat_restriction.disabled_by_profile>
 原始英文：Chat is restricted by profile settings.
@@ -11258,7 +11258,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.kick.owner.failed>
 原始英文：Cannot kick server owner in LAN game
-繁體中文：無法在區網遊戲中踢出伺服器擁有者
+繁體中文：無法在區域網路遊戲中踢出伺服器擁有者
 
 翻譯鍵：<commands.kick.singleplayer.failed>
 原始英文：Cannot kick in an offline singleplayer game
@@ -15556,7 +15556,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<gamerule.doEntityDrops.description>
 原始英文：Controls drops from minecarts (including inventories), item frames, boats, etc.
-繁體中文：控制自礦車（包括物品欄）、物品展示框、船等的掉落物。
+繁體中文：控制礦車（包括內容物）、物品展示框、船等的掉落物。
 
 翻譯鍵：<gamerule.doFireTick>
 原始英文：Update fire
@@ -15740,7 +15740,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<gamerule.minecraft.fire_spread_radius_around_player.description>
 原始英文：The radius in blocks around a player in which fire can spread
-繁體中文：玩家周圍火焰可蔓延的半徑格數
+繁體中文：玩家周圍火焰可蔓延的半徑格數。
 
 翻譯鍵：<gamerule.minecraft.player_movement_check>
 原始英文：Do player movement check
@@ -16632,7 +16632,7 @@ Try again later.
 
 翻譯鍵：<gui.friends.error.unauthorized>
 原始英文：Invalid token supplied. Restart your game and launcher, then try again
-繁體中文：提供的權杖無效。請重新啟動遊戲與啟動器，然後再試一次
+繁體中文：提供的權杖無效。請重新啟動遊戲與啟動器，然後再試一次。
 
 翻譯鍵：<gui.friends.error.unavailable.message>
 原始英文：The Friends List service is currently unavailable. Please check your connection and try again later.
@@ -21742,7 +21742,7 @@ The owner of the Realm can restore the world if needed.
 原始英文：You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready. 
 
 This does not cancel your Realms Subscription.
-繁體中文：您可以暫時關閉 Realm，以防有人在調整時進入遊玩。準備就緒後就可以重新開啟。
+繁體中文：您可以暫時關閉 Realm，以防有人在調整時加入遊玩。準備就緒後就可以重新開啟。
 
 此操作不會取消您的 Realms 訂閱。
 
@@ -23150,8 +23150,8 @@ Command: %s
 原始英文：You are trying to execute a command that will send chat messages using your name.
 It can only be run from the chat screen
 Command: %s
-繁體中文：你嘗試執行的指令將使用你的名稱傳送聊天訊息。
-該指令只能從聊天欄執行
+繁體中文：你正在嘗試執行的指令將使用你的名稱發送聊天訊息。
+它只能從聊天畫面執行。
 指令：%s
 
 翻譯鍵：<multiplayer.confirm_command.suggest_command>
@@ -25472,7 +25472,7 @@ Please restart the game if you see this message again.
 原始英文：The following entries were not valid packs and were not copied:
  %s
 繁體中文：下列項目不是有效的資源或資料包，因此未能執行複製操作：
- %s
+%s
 
 翻譯鍵：<pack.dropRejected.title>
 原始英文：Non-pack entries
@@ -26080,7 +26080,7 @@ Please restart the game if you see this message again.
 
 翻譯鍵：<quickplay.error.realm_connect>
 原始英文：Could not connect to Realm
-繁體中文：無法連線到 Realm
+繁體中文：無法連線至此 Realm
 
 翻譯鍵：<quickplay.error.realm_permission>
 原始英文：Lacking permission to connect to this Realm
@@ -31855,7 +31855,7 @@ You can also send in additional feedback to help us keep improving Minecraft.
 翻譯鍵：<telemetry.event.performance_metrics.description>
 原始英文：Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems. 
 Game version is included to help us compare the performance profile for new versions of Minecraft.
-繁體中文：了解 Minecraft 整體的效能概況，可以幫助我們針對各類裝置及作業系統調整並改進遊戲。 
+繁體中文：了解 Minecraft 整體的效能概況，可以幫助我們針對各類裝置及作業系統調整並改進遊戲。
 遊戲版本資訊也包含在內，以便我們比較新版本 Minecraft 的效能概況。
 
 翻譯鍵：<telemetry.event.performance_metrics.title>
@@ -31936,7 +31936,7 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<telemetry.property.frame_rate_samples.title>
 原始英文：Frame Rate Samples (FPS)
-繁體中文：畫面更新率樣本 (FPS)
+繁體中文：畫面更新率樣本（FPS）
 
 翻譯鍵：<telemetry.property.game_mode.title>
 原始英文：Game Mode
