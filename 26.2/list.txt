@@ -18000,7 +18000,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.firework_rocket.flight>
 原始英文：Flight Duration:
-繁體中文：飛行時間：%s
+繁體中文：飛行時間：
 
 翻譯鍵：<item.minecraft.firework_rocket.multiple_stars>
 原始英文：%s x %s
@@ -23150,8 +23150,8 @@ Command: %s
 原始英文：You are trying to execute a command that will send chat messages using your name.
 It can only be run from the chat screen
 Command: %s
-繁體中文：你正在嘗試執行的指令將使用你的名稱發送聊天訊息。
-它只能從聊天畫面執行。
+繁體中文：你嘗試執行的指令將使用你的名稱傳送聊天訊息。
+該指令只能從聊天欄執行。
 指令：%s
 
 翻譯鍵：<multiplayer.confirm_command.suggest_command>
