@@ -1418,7 +1418,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.enum.invalid>
 原始英文：Invalid value "%s"
-繁體中文：無效數值 '%s'
+繁體中文：無效的值 '%s'
 
 翻譯鍵：<argument.float.big>
 原始英文：Float must not be more than %s: found %s
@@ -11374,7 +11374,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.perf.started>
 原始英文：Started 10 second performance profiling run (use '/perf stop' to stop early)
-繁體中文：已啟用持續 10 秒的效能分析測試（使用 '/perf stop' 以提前結束）
+繁體中文：已啟動持續 10 秒的效能分析測試（使用 '/perf stop' 以提前結束）
 
 翻譯鍵：<commands.perf.stopped>
 原始英文：Stopped performance profiling after %s second(s) and %s tick(s) (%s tick(s) per second)
@@ -13166,7 +13166,7 @@ Try again later.
 
 翻譯鍵：<datapackFailure.safeMode.failed.title>
 原始英文：Failed to load world in Safe Mode.
-繁體中文：無法在安全模式下載入世界。
+繁體中文：無法在安全模式下載入世界
 
 翻譯鍵：<datapackFailure.title>
 原始英文：Errors in the currently selected data pack(s) prevented the world from loading.
@@ -13492,7 +13492,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<death.attack.sulfurCubeHot>
 原始英文：%1$s died because not just the floor is lava
-繁體中文：%1$s 因不只有地面是熔岩而死
+繁體中文：%1$s 察覺不只有地面是熔岩
 
 翻譯鍵：<death.attack.sulfurCubeHot.player>
 原始英文：%2$s showed %1$s that not just the floor is lava
@@ -16592,7 +16592,7 @@ Manage online safety with your %s.
 
 翻譯鍵：<gui.friends.enter_nickname>
 原始英文：Enter Profile Name
-繁體中文：輸入個人檔案名稱
+繁體中文：輸入玩家檔案名稱
 
 翻譯鍵：<gui.friends.error.connection_issue>
 原始英文：Friends List is not working right now.
@@ -22208,7 +22208,7 @@ You won't be able to upload this world to your Realm again
 
 翻譯鍵：<mco.errorMessage.6002>
 原始英文：Terms of service not accepted
-繁體中文：尚未接受使用條款
+繁體中文：尚未接受服務條款
 
 翻譯鍵：<mco.errorMessage.6003>
 原始英文：Download limit reached
@@ -26076,11 +26076,11 @@ Please restart the game if you see this message again.
 
 翻譯鍵：<quickplay.error.invalid_identifier>
 原始英文：Could not find world with the provided identifier
-繁體中文：無法找到具有指定識別碼的世界
+繁體中文：找不到具有指定識別碼的世界
 
 翻譯鍵：<quickplay.error.realm_connect>
 原始英文：Could not connect to Realm
-繁體中文：無法連線至此 Realm
+繁體中文：無法連線至 Realm
 
 翻譯鍵：<quickplay.error.realm_permission>
 原始英文：Lacking permission to connect to this Realm
@@ -28940,11 +28940,11 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.copper_golem.no_item_get>
 原始英文：Copper Golem is picking up item
-繁體中文：銅魔像撿起物品
+繁體中文：銅魔像取出物品
 
 翻譯鍵：<subtitles.entity.copper_golem.no_item_no_get>
 原始英文：Copper Golem can't pick up item
-繁體中文：銅魔像無法撿起物品
+繁體中文：銅魔像無法取出物品
 
 翻譯鍵：<subtitles.entity.copper_golem.spawn>
 原始英文：Copper Golem appears
