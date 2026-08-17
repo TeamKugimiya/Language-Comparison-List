@@ -21040,7 +21040,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.keyboard.left.win>
 原始英文：Left Win
-繁體中文：左 Windows
+繁體中文：左 Meta
 
 翻譯鍵：<key.keyboard.menu>
 原始英文：Menu
@@ -21096,7 +21096,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.keyboard.right.win>
 原始英文：Right Win
-繁體中文：右 Windows
+繁體中文：右 Meta
 
 翻譯鍵：<key.keyboard.scroll.lock>
 原始英文：Scroll Lock
@@ -24799,8 +24799,8 @@ With this option on, hidden players will be matched based on chat sender names.
 翻譯鍵：<options.improvedTransparency.tooltip>
 原始英文：An experimental approach that uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.
 This will impact GPU performance.
-繁體中文：實驗性功能，採用無關順序的透明度演算法，可避免視角透過多層半透明物件時常出現的圖形問題。
-這項功能會影響效能。
+繁體中文：實驗性功能，使用畫面著色器在半透明方塊及水的後面繪製天氣、雲及粒子。
+這項功能會影響 GPU 效能。
 
 翻譯鍵：<options.inactivityFpsLimit>
 原始英文：Reduce FPS when
