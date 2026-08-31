@@ -21040,7 +21040,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.keyboard.left.win>
 原始英文：Left Win
-繁體中文：左 Meta
+繁體中文：左 Windows
 
 翻譯鍵：<key.keyboard.menu>
 原始英文：Menu
@@ -21096,7 +21096,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.keyboard.right.win>
 原始英文：Right Win
-繁體中文：右 Meta
+繁體中文：右 Windows
 
 翻譯鍵：<key.keyboard.scroll.lock>
 原始英文：Scroll Lock
