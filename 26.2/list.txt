@@ -1530,7 +1530,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.pos.outofbounds>
 原始英文：That position is outside the allowed boundaries.
-繁體中文：該位置位於允許的範圍外。
+繁體中文：該位置位於允許的範圍外
 
 翻譯鍵：<argument.pos.outofworld>
 原始英文：That position is out of this world!
@@ -9938,7 +9938,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<chat_restriction.disabled_by_launcher>
 原始英文：Chat is restricted by the launcher
-繁體中文：聊天功能受到啟動器限制。
+繁體中文：聊天功能受到啟動器的限制。
 
 翻譯鍵：<chat_restriction.disabled_by_profile>
 原始英文：Chat is restricted by profile settings.
@@ -13776,7 +13776,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<debug.options.notAllowed.tooltip>
 原始英文：Not visible when debug info is reduced
-繁體中文：簡化除錯資訊時隱藏
+繁體中文：簡化除錯資訊時隱藏。
 
 翻譯鍵：<debug.options.profile.default>
 原始英文：Default profile
@@ -21742,7 +21742,7 @@ The owner of the Realm can restore the world if needed.
 原始英文：You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready. 
 
 This does not cancel your Realms Subscription.
-繁體中文：您可以暫時關閉 Realm，以防有人在調整時加入遊玩。準備就緒後就可以重新開啟。
+繁體中文：您可以暫時關閉 Realm，以防有人在調整時進入遊玩。準備就緒後就可以重新開啟。
 
 此操作不會取消您的 Realms 訂閱。
 
@@ -22172,7 +22172,7 @@ You won't be able to upload this world to your Realm again
 
 翻譯鍵：<mco.download.percent>
 原始英文：%s %%
-繁體中文：%s %%
+繁體中文：%s%%
 
 翻譯鍵：<mco.download.preparing>
 原始英文：Preparing download
@@ -22800,7 +22800,7 @@ Please check back later for new content, or if you're a creator,
 
 翻譯鍵：<mco.upload.percent>
 原始英文：%s %%
-繁體中文：%s %%
+繁體中文：%s%%
 
 翻譯鍵：<mco.upload.preparing>
 原始英文：Preparing your world
@@ -24880,7 +24880,7 @@ This will impact GPU performance.
 
 翻譯鍵：<options.languageWarning>
 原始英文：Language translations may not be 100%% accurate
-繁體中文：語言翻譯並不一定是100%%精確
+繁體中文：語言翻譯並不一定是 100%% 精確。
 
 翻譯鍵：<options.mainHand>
 原始英文：Main Hand
