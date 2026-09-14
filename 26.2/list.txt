@@ -9938,7 +9938,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<chat_restriction.disabled_by_launcher>
 原始英文：Chat is restricted by the launcher
-繁體中文：聊天功能受到啟動器的限制。
+繁體中文：聊天功能受到啟動器限制。
 
 翻譯鍵：<chat_restriction.disabled_by_profile>
 原始英文：Chat is restricted by profile settings.
