@@ -11902,7 +11902,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.posteffect.add.failed>
 原始英文：Player already has the specified post effect
-繁體中文：玩家已經擁有指定的後製效果
+繁體中文：玩家原已擁有指定的後製效果
 
 翻譯鍵：<commands.posteffect.add.success.multiple>
 原始英文：Added post effect %s to %s players
@@ -18160,7 +18160,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.buried_treasure_map>
 原始英文：Buried Treasure Map
-繁體中文：掩埋的寶藏地圖
+繁體中文：藏寶圖
 
 翻譯鍵：<item.minecraft.buried_trial_chambers_map>
 原始英文：Buried Trial Chambers Map
