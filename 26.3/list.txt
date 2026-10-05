@@ -10514,7 +10514,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<chat.type.text.narrate>
 原始英文：%s says %s
-繁體中文：%s 說︰%s
+繁體中文：%s 說：%s
 
 翻譯鍵：<chat.validation_error>
 原始英文：Chat validation error
@@ -10914,7 +10914,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.bossbar.set.max.unchanged>
 原始英文：Nothing changed. That's already the maximum of this bossbar
-繁體中文：未進行任何變更。此 Boss 狀態條已經是該最大值
+繁體中文：未進行任何變更。此 Boss 狀態條已經是最大值
 
 翻譯鍵：<commands.bossbar.set.name.success>
 原始英文：Custom bossbar %s has been renamed
@@ -12682,19 +12682,19 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.teleport.success.entity.multiple>
 原始英文：Teleported %s entities to %s
-繁體中文：已傳送 %s 個實體到 %s
+繁體中文：已將 %s 個實體傳送到 %s
 
 翻譯鍵：<commands.teleport.success.entity.single>
 原始英文：Teleported %s to %s
-繁體中文：傳送 %s 到 %s
+繁體中文：已將 %s 傳送到 %s
 
 翻譯鍵：<commands.teleport.success.location.multiple>
 原始英文：Teleported %s entities to %s, %s, %s
-繁體中文：已傳送 %s 個實體到 %s, %s, %s
+繁體中文：已將 %s 個實體傳送到 %s, %s, %s
 
 翻譯鍵：<commands.teleport.success.location.single>
 原始英文：Teleported %s to %s, %s, %s
-繁體中文：傳送 %s 到 %s, %s, %s
+繁體中文：已將 %s 傳送到 %s, %s, %s
 
 翻譯鍵：<commands.test.batch.starting>
 原始英文：Starting environment %s batch %s
@@ -16460,7 +16460,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<gamerule.spawnChunkRadius.description>
 原始英文：The amount of chunks that stay loaded around the Overworld spawn position.
-繁體中文：主世界重生點周圍維持載入的區塊數量。
+繁體中文：主世界重生點周圍持續載入的區塊數量。
 
 翻譯鍵：<gamerule.spawnerBlocksEnabled>
 原始英文：Enable Spawner Blocks
@@ -22024,7 +22024,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.keyboard.keypad.decimal>
 原始英文：Keypad Decimal
-繁體中文：數字鍵 .
+繁體中文：數字鍵 十進位
 
 翻譯鍵：<key.keyboard.keypad.divide>
 原始英文：Keypad /
@@ -23312,7 +23312,7 @@ This does not cancel your Realms subscription.
 
 翻譯鍵：<mco.configure.world.renderDistance.tooltip>
 原始英文：The maximum distance visible to Realm members. Higher values may impact performance.
-繁體中文：Realm 成員能看見的最大距離。數值愈高愈可能影響效能。
+繁體中文：Realm 成員能看見的最大距離。數值越高越可能影響效能。
 
 翻譯鍵：<mco.configure.world.reset.question.line1>
 原始英文：Your world will be regenerated and your current world will be lost
@@ -26718,7 +26718,7 @@ This will impact GPU performance.
 
 翻譯鍵：<options.quitShortcuts.tooltip>
 原始英文：Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q on macOS, will no longer quit the game.
-繁體中文：控制是否能使用鍵盤快速鍵關閉遊戲。設為關閉時，無法使用 Windows 與 Linux 上的 Alt + F4 及 macOS 上的 Cmd + Q 離開遊戲。
+繁體中文：控制是否能使用鍵盤快速鍵關閉遊戲。設為關閉時，無法使用 Windows 與 Linux 上的 Alt + F4 及 macOS 上的 Command + Q 離開遊戲。
 
 翻譯鍵：<options.rawMouseInput>
 原始英文：Raw Input
@@ -27064,7 +27064,7 @@ A shader-based filtering method that improves texture quality with a moderate pe
 
 翻譯鍵：<options.worldOptions.guest.force_game_mode.off.scope.tooltip>
 原始英文：Cannot change this setting when the world's multiplayer scope is set to "Off".
-繁體中文：當世界沒有開放多人遊戲時，無法變更這項設定。
+繁體中文：當世界的「區域網路」設為「關閉」時，無法變更這項設定。
 
 翻譯鍵：<options.worldOptions.guest.force_game_mode.off.tooltip>
 原始英文：Other players will retain their current game mode regardless of the world's default game mode.
