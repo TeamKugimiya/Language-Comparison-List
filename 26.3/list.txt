@@ -54,7 +54,7 @@ Would you like to enable the Narrator or visit the Accessibility Settings?
 
 翻譯鍵：<advancement.advancementNotFound>
 原始英文：Unknown advancement: %s
-繁體中文：未知的進度：%s
+繁體中文：未知的進度 '%s'
 
 翻譯鍵：<advancements.adventure.adventuring_time.description>
 原始英文：Discover every biome
@@ -814,7 +814,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<advancements.nether.distract_piglin.title>
 原始英文：Oh Shiny
-繁體中文：金光閃閃
+繁體中文：金光閃閃！
 
 翻譯鍵：<advancements.nether.explore_nether.description>
 原始英文：Explore all Nether biomes
@@ -1178,7 +1178,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.anchor.invalid>
 原始英文：Invalid entity anchor position %s
-繁體中文：無效的實體錨點 %s
+繁體中文：無效的實體錨點 '%s'
 
 翻譯鍵：<argument.angle.incomplete>
 原始英文：Incomplete (expected 1 angle)
@@ -1222,7 +1222,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.component.invalid>
 原始英文：Invalid chat component: %s
-繁體中文：無效的聊天元件：%s
+繁體中文：無效的聊天元件 '%s'
 
 翻譯鍵：<argument.criteria.invalid>
 原始英文：Unknown criterion '%s'
@@ -1430,7 +1430,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.gamemode.invalid>
 原始英文：Unknown game mode: %s
-繁體中文：未知的遊戲模式：%s
+繁體中文：未知的遊戲模式 '%s'
 
 翻譯鍵：<argument.hexcolor.invalid>
 原始英文：Invalid hex color code '%s'
@@ -1442,7 +1442,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.id.unknown>
 原始英文：Unknown ID: %s
-繁體中文：未知的 ID: %s
+繁體中文：未知的 ID '%s'
 
 翻譯鍵：<argument.integer.big>
 原始英文：Integer must not be more than %s: found %s
@@ -1606,11 +1606,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<argument.style.invalid>
 原始英文：Invalid style: %s
-繁體中文：無效的樣式：%s
+繁體中文：無效的樣式 '%s'
 
 翻譯鍵：<argument.swing_animation.invalid>
 原始英文：Unknown swing animation type: %s
-繁體中文：未知的揮臂動畫類型：%s
+繁體中文：未知的揮臂動畫類型 '%s'
 
 翻譯鍵：<argument.time.invalid_tick_count>
 原始英文：The tick count must be non-negative
@@ -1642,7 +1642,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<arguments.function.unknown>
 原始英文：Unknown function %s
-繁體中文：未知的函數 %s
+繁體中文：未知的函數 '%s'
 
 翻譯鍵：<arguments.item.component.expected>
 原始英文：Expected item component
@@ -10366,7 +10366,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<chat.copy.click>
 原始英文：Click to Copy to Clipboard
-繁體中文：按此複製到剪貼簿
+繁體中文：點擊以複製到剪貼簿
 
 翻譯鍵：<chat.deleted_marker>
 原始英文：This chat message has been deleted by the server.
@@ -11074,7 +11074,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.data.modify.invalid_index>
 原始英文：Invalid list index: %s
-繁體中文：無效的串列索引：%s
+繁體中文：無效的串列索引 '%s'
 
 翻譯鍵：<commands.data.modify.invalid_substring>
 原始英文：Invalid substring indices: %s to %s
@@ -11522,7 +11522,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.function.error.argument_not_compound>
 原始英文：Invalid argument type: %s. Expected Compound
-繁體中文：無效的引數類型：%s。應為 Compound
+繁體中文：無效的引數類型 '%s'。應為 Compound
 
 翻譯鍵：<commands.function.error.missing_argument>
 原始英文：Missing argument %2$s to function %1$s
@@ -11662,7 +11662,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.item.source.no_such_slot.unnamed>
 原始英文：The source does not have specified slots
-繁體中文：該來源沒有指定的欄位
+繁體中文：該來源並沒有指定的欄位
 
 翻譯鍵：<commands.item.source.not_a_container>
 原始英文：Source position %s, %s, %s is not a container
@@ -11670,11 +11670,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.item.target.failed>
 原始英文：No targets accepted items into specified slots
-繁體中文：沒有對象在指定欄位接受物品
+繁體中文：沒有任何對象的指定欄位接收到物品
 
 翻譯鍵：<commands.item.target.failed.known_item>
 原始英文：No targets accepted item %s into specified slots
-繁體中文：沒有對象在指定欄位接受物品 %s
+繁體中文：沒有任何對象的指定欄位接收到物品 %s
 
 翻譯鍵：<commands.item.target.no_changed.known_item>
 原始英文：No targets accepted item %s into slot %s
@@ -11686,7 +11686,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.item.target.no_such_slot>
 原始英文：The target does not have slot %s
-繁體中文：該對象並無 %s 欄位
+繁體中文：該對象沒有 %s 欄位
 
 翻譯鍵：<commands.item.target.no_such_slot.unnamed>
 原始英文：The target does not have specified slots
@@ -12406,7 +12406,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.spreadplayers.failed.invalid.height>
 原始英文：Invalid maxHeight %s; expected higher than world minimum %s
-繁體中文：無效的 maxHeight 值：%s，應高過世界最小高度 %s
+繁體中文：無效的 maxHeight 值 '%s'，應高過世界最小高度 %s
 
 翻譯鍵：<commands.spreadplayers.failed.teams>
 原始英文：Could not spread %s team(s) around %s, %s (too many entities for space - try using spread of at most %s)
@@ -12514,7 +12514,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.tag.list.multiple.success>
 原始英文：The %s entities have %s total tag(s): %s
-繁體中文：這 %s 個實體總共有 %s 個標籤：%s
+繁體中文：這 %s 個實體共有 %s 個標籤：%s
 
 翻譯鍵：<commands.tag.list.single.empty>
 原始英文：%s has no tags
@@ -12878,11 +12878,11 @@ Average time per tick: %sms
 
 翻譯鍵：<commands.time.pause.already_paused>
 原始英文：Clock %s is already paused
-繁體中文：時鐘 %s 已經暫停
+繁體中文：時鐘 %s 原已暫停
 
 翻譯鍵：<commands.time.pause.already_running>
 原始英文：Clock %s is already running
-繁體中文：時鐘 %s 已經在執行中
+繁體中文：時鐘 %s 原已在執行中
 
 翻譯鍵：<commands.time.query>
 原始英文：The time is %s
@@ -12910,7 +12910,7 @@ Average time per tick: %sms
 
 翻譯鍵：<commands.time.rate.already_same>
 原始英文：Clock %s is already advancing at %sx normal rate
-繁體中文：時鐘 %s 的速度已經設為正常速度的 %s 倍
+繁體中文：時鐘 %s 的速度原已設為正常速度的 %s 倍
 
 翻譯鍵：<commands.time.resume>
 原始英文：Resumed clock %s
@@ -12926,11 +12926,11 @@ Average time per tick: %sms
 
 翻譯鍵：<commands.time.set.already_at_time>
 原始英文：Clock %s is already set to %s tick(s)
-繁體中文：時鐘 %s 已經設為 %s 刻
+繁體中文：時鐘 %s 原已設為 %s 刻
 
 翻譯鍵：<commands.time.set.already_at_time_marker>
 原始英文：Clock %s is already at time marker %s
-繁體中文：時鐘 %s 已經處於時間標記 %s
+繁體中文：時鐘 %s 原已處於時間標記 %s
 
 翻譯鍵：<commands.time.set.time_marker>
 原始英文：Set %s to time marker %s
@@ -16172,7 +16172,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<gamerule.doEntityDrops.description>
 原始英文：Controls drops from Minecarts (including inventories), Item Frames, Boats, etc.
-繁體中文：控制礦車（包括內容物）、物品展示框、船等的掉落物。
+繁體中文：控制礦車（包含內容物）、物品展示框、船等的物品掉落。
 
 翻譯鍵：<gamerule.doFireTick>
 原始英文：Update fire
@@ -16460,7 +16460,7 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<gamerule.spawnChunkRadius.description>
 原始英文：The amount of chunks that stay loaded around the Overworld spawn position.
-繁體中文：主世界重生點周圍持續載入的區塊數量。
+繁體中文：主世界重生點周圍維持載入的區塊數量。
 
 翻譯鍵：<gamerule.spawnerBlocksEnabled>
 原始英文：Enable Spawner Blocks
@@ -17552,7 +17552,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<gui.recipebook.moreRecipes>
 原始英文：Right Click for More
-繁體中文：按下右鍵以查看更多
+繁體中文：點擊右鍵以查看更多
 
 翻譯鍵：<gui.recipebook.next_page>
 原始英文：Next Page
@@ -17820,7 +17820,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item_modifier.unknown>
 原始英文：Unknown item modifier: %s
-繁體中文：未知的物品屬性：%s
+繁體中文：未知的物品屬性 '%s'
 
 翻譯鍵：<item.canBreak>
 原始英文：Can break:
@@ -23212,7 +23212,7 @@ This does not cancel your Realms subscription.
 
 翻譯鍵：<mco.configure.world.invite_codes.subtitle>
 原始英文：You can add up to %s invite codes and share them so people can join your Realm
-繁體中文：您最多可以新增 %s 組邀請碼並分享出去，讓其他人加入您的 Realm
+繁體中文：您最多可以建立 %s 組邀請碼並分享出去，讓其他人加入您的 Realm
 
 翻譯鍵：<mco.configure.world.invite_codes.title>
 原始英文：Invite Codes (%s/%s)
@@ -23644,7 +23644,7 @@ You won't be able to upload this world to your Realm again
 
 翻譯鍵：<mco.errorMessage.6002>
 原始英文：Terms of Service not accepted
-繁體中文：尚未接受服務條款
+繁體中文：尚未接受使用條款
 
 翻譯鍵：<mco.errorMessage.6003>
 原始英文：Download limit reached
@@ -23870,7 +23870,7 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.pdp.private.easyToManage>
 原始英文：• Easy to set up, easy to manage
-繁體中文：• 設定輕鬆，管理簡單
+繁體中文：• 輕鬆設定，容易管理
 
 翻譯鍵：<mco.pdp.private.secure>
 原始英文：• Private and secure
@@ -23878,7 +23878,7 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.pdp.private.title>
 原始英文：Personal server
-繁體中文：個人專屬伺服器
+繁體中文：個人伺服器
 
 翻譯鍵：<mco.pdp.private.worldSlots>
 原始英文：• Three world slots
@@ -24014,15 +24014,15 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.selectServer.joinCode>
 原始英文：Join Code
-繁體中文：加入碼
+繁體中文：加入代碼
 
 翻譯鍵：<mco.selectServer.joinCode.hint>
 原始英文：Enter join code
-繁體中文：輸入加入碼
+繁體中文：輸入加入代碼
 
 翻譯鍵：<mco.selectServer.joinCode.invalid>
 原始英文：The code you entered is invalid.
-繁體中文：輸入的加入碼無效。
+繁體中文：輸入的代碼無效。
 
 翻譯鍵：<mco.selectServer.joinCode.select>
 原始英文：Join Realm
@@ -24030,11 +24030,11 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.selectServer.joinCode.title>
 原始英文：Enter Join Code
-繁體中文：輸入加入碼
+繁體中文：輸入加入代碼
 
 翻譯鍵：<mco.selectServer.joinCode.validating>
 原始英文：Validating code
-繁體中文：正在驗證加入碼
+繁體中文：正在驗證代碼
 
 翻譯鍵：<mco.selectServer.joinRealm>
 原始英文：Join Realm
@@ -25408,7 +25408,7 @@ Message from server:
 
 翻譯鍵：<narration.recipe.usage.more>
 原始英文：Right click to show more recipes
-繁體中文：按下右鍵顯示更多合成配方
+繁體中文：按下右鍵以顯示更多合成配方
 
 翻譯鍵：<narration.selection.usage>
 原始英文：Press the up and down buttons to move to another entry
@@ -25966,7 +25966,7 @@ With this option off, your name will not show up in such lists.
 
 翻譯鍵：<options.debugGuiScale.tooltip>
 原始英文：Overrides the debug overlay with a different GUI scale than the rest of the game
-繁體中文：單獨調整除錯覆蓋層的介面大小
+繁體中文：單獨調整除錯覆蓋層的介面大小。
 
 翻譯鍵：<options.debugGuiScale.unchanged>
 原始英文：Unchanged
@@ -26414,7 +26414,7 @@ This will impact GPU performance.
 
 翻譯鍵：<options.language.empty_or_missing_translation>
 原始英文：Translation file for %s was empty or missing. Restart your game and launcher, then try again.
-繁體中文：%s 的翻譯檔案為空或遺失。請重新啟動遊戲與啟動器，然後再試一次。
+繁體中文：空的或遺失的 %s 翻譯檔案。請重新啟動遊戲與啟動器，然後再試一次。
 
 翻譯鍵：<options.language.load_translations_failed>
 原始英文：Loading translations failed
@@ -26714,11 +26714,11 @@ This will impact GPU performance.
 
 翻譯鍵：<options.quitShortcuts>
 原始英文：Quit Shortcuts
-繁體中文：離開遊戲快速鍵
+繁體中文：離開遊戲快捷鍵
 
 翻譯鍵：<options.quitShortcuts.tooltip>
 原始英文：Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q on macOS, will no longer quit the game.
-繁體中文：控制是否能使用鍵盤快速鍵關閉遊戲。設為關閉時，無法使用 Windows 與 Linux 上的 Alt + F4 及 macOS 上的 Command + Q 離開遊戲。
+繁體中文：控制是否能使用鍵盤快捷鍵關閉遊戲。設為關閉時，無法使用 Windows 與 Linux 上的 Alt + F4 及 macOS 上的 Command + Q 離開遊戲。
 
 翻譯鍵：<options.rawMouseInput>
 原始英文：Raw Input
@@ -26816,7 +26816,7 @@ At lower values, the Nausea effect is replaced with a green overlay.
 
 翻譯鍵：<options.sharePresence.none.tooltip>
 原始英文：Friends will always see you as offline.
-繁體中文：好友將始終看見你顯示為「離線」。
+繁體中文：好友始終看見你為「離線」。
 
 翻譯鍵：<options.showNowPlayingToast>
 原始英文：Show Music Toast
@@ -27044,7 +27044,7 @@ A shader-based filtering method that improves texture quality with a moderate pe
 
 翻譯鍵：<options.worldOptions.guest.command_access.disabled.scope.tooltip>
 原始英文：Cannot change the command access of players joining your world when the world's multiplayer scope is set to "Off".
-繁體中文：當世界沒有開放多人遊戲時，無法變更加入世界玩家的指令使用權限。
+繁體中文：當「區域網路」設為「關閉」時，無法變更加入世界玩家的指令使用權限。
 
 翻譯鍵：<options.worldOptions.guest.command_access.tooltip>
 原始英文：Controls whether players that join your world can use commands or not.
@@ -27064,15 +27064,15 @@ A shader-based filtering method that improves texture quality with a moderate pe
 
 翻譯鍵：<options.worldOptions.guest.force_game_mode.off.scope.tooltip>
 原始英文：Cannot change this setting when the world's multiplayer scope is set to "Off".
-繁體中文：當世界的「區域網路」設為「關閉」時，無法變更這項設定。
+繁體中文：當「區域網路」設為「關閉」時，無法變更這項設定。
 
 翻譯鍵：<options.worldOptions.guest.force_game_mode.off.tooltip>
 原始英文：Other players will retain their current game mode regardless of the world's default game mode.
-繁體中文：無論世界的預設遊戲模式為何，其他玩家都會維持目前的遊戲模式。
+繁體中文：不論世界的預設遊戲模式為何，其他玩家都會維持當前的遊戲模式。
 
 翻譯鍵：<options.worldOptions.guest.force_game_mode.on.tooltip>
 原始英文：Other players will be forced to play the world's default game mode.
-繁體中文：其他玩家將強制以世界預設遊戲模式遊玩。
+繁體中文：其他玩家將強制以世界的預設遊戲模式遊玩。
 
 翻譯鍵：<options.worldOptions.multiplayer.title>
 原始英文：Multiplayer
@@ -27682,7 +27682,7 @@ Please restart the game if you see this message again.
 
 翻譯鍵：<particle.notFound>
 原始英文：Unknown particle: %s
-繁體中文：未知的粒子：%s
+繁體中文：未知的粒子 '%s'
 
 翻譯鍵：<permissions.requires.entity>
 原始英文：An entity is required to run this command here
@@ -27730,15 +27730,15 @@ Please restart the game if you see this message again.
 
 翻譯鍵：<predicate.unknown>
 原始英文：Unknown predicate: %s
-繁體中文：未知的述詞：%s
+繁體中文：未知的述詞 '%s'
 
 翻譯鍵：<quickplay.error.invalid_identifier>
 原始英文：Could not find a world with the provided identifier
-繁體中文：找不到具有指定識別碼的世界
+繁體中文：找不到具有該識別碼的世界
 
 翻譯鍵：<quickplay.error.realm_connect>
 原始英文：Could not connect to this Realm
-繁體中文：無法連線至 Realm
+繁體中文：無法連線至這個 Realm
 
 翻譯鍵：<quickplay.error.realm_permission>
 原始英文：Lacking permission to connect to this Realm
@@ -27870,7 +27870,7 @@ Please restart the game if you see this message again.
 
 翻譯鍵：<recipe.notFound>
 原始英文：Unknown recipe: %s
-繁體中文：未知的配方：%s
+繁體中文：未知的配方 '%s'
 
 翻譯鍵：<recipe.toast.description>
 原始英文：Check your recipe book
@@ -28128,7 +28128,7 @@ It might be possible to restore the world from an older state or you can report 
 
 翻譯鍵：<selectWorld.backupQuestion.experimental>
 原始英文：Worlds using Experimental Settings are not supported
-繁體中文：使用實驗性設定的世界不受支援
+繁體中文：不支援使用實驗性設定的世界
 
 翻譯鍵：<selectWorld.backupQuestion.file_fixing_required>
 原始英文：Create a backup before upgrading this world?
@@ -29498,7 +29498,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.block.chest.locked>
 原始英文：Chest locked
-繁體中文：儲物箱鎖上
+繁體中文：儲物箱鎖鏗鏘聲
 
 翻譯鍵：<subtitles.block.chest.open>
 原始英文：Chest opens
@@ -29606,7 +29606,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.block.dispenser.dispense>
 原始英文：Dispensed item
-繁體中文：物品射出
+繁體中文：發射器射出物品
 
 翻譯鍵：<subtitles.block.dispenser.fail>
 原始英文：Dispenser failed
@@ -29670,7 +29670,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.block.fire.extinguish>
 原始英文：Fire extinguished
-繁體中文：火焰熄滅聲
+繁體中文：火焰熄滅
 
 翻譯鍵：<subtitles.block.firefly_bush.idle>
 原始英文：Fireflies buzz
@@ -29702,7 +29702,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.block.generic.place>
 原始英文：Block placed
-繁體中文：方塊放置聲
+繁體中文：放置方塊
 
 翻譯鍵：<subtitles.block.grindstone.use>
 原始英文：Grindstone used
@@ -29858,7 +29858,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.block.shelf_mushroom.bounce>
 原始英文：Something bounces on a Shelf Mushroom
-繁體中文：某物在層孔菇上彈跳
+繁體中文：物體在層孔菇上彈跳
 
 翻譯鍵：<subtitles.block.shelf.activate>
 原始英文：Shelf activates
@@ -30102,7 +30102,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.armadillo.brush>
 原始英文：Scute is brushed off
-繁體中文：鱗甲刷落聲
+繁體中文：鱗甲被刷落
 
 翻譯鍵：<subtitles.entity.armadillo.death>
 原始英文：Armadillo dies
@@ -30150,7 +30150,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.arrow.hit>
 原始英文：Arrow hits
-繁體中文：箭矢擊中聲
+繁體中文：箭矢擊中
 
 翻譯鍵：<subtitles.entity.arrow.hit_player>
 原始英文：Player hit
@@ -30190,7 +30190,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_cat.ambient>
 原始英文：Kitten meows
-繁體中文：幼年貓叫聲
+繁體中文：幼年貓喵喵叫
 
 翻譯鍵：<subtitles.entity.baby_cat.beg_for_food>
 原始英文：Kitten begs
@@ -30238,7 +30238,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_horse.breathe>
 原始英文：Foal breathes
-繁體中文：幼年馬呼吸聲
+繁體中文：幼年馬呼吸
 
 翻譯鍵：<subtitles.entity.baby_horse.death>
 原始英文：Foal dies
@@ -30290,7 +30290,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_pig.ambient>
 原始英文：Baby Pig oinks
-繁體中文：幼年豬叫聲
+繁體中文：幼年豬哼叫
 
 翻譯鍵：<subtitles.entity.baby_pig.death>
 原始英文：Baby Pig dies
@@ -30306,7 +30306,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_wolf.ambient>
 原始英文：Puppy yips
-繁體中文：幼年狼尖叫聲
+繁體中文：幼年狼短促叫
 
 翻譯鍵：<subtitles.entity.baby_wolf.death>
 原始英文：Puppy dies
@@ -30314,7 +30314,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_wolf.growl>
 原始英文：Puppy growls
-繁體中文：幼年狼嚎聲
+繁體中文：幼年狼嚎叫
 
 翻譯鍵：<subtitles.entity.baby_wolf.hurt>
 原始英文：Puppy hurts
@@ -30322,15 +30322,15 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.baby_wolf.pant>
 原始英文：Puppy pants
-繁體中文：幼年狼喘氣聲
+繁體中文：幼年狼喘氣
 
 翻譯鍵：<subtitles.entity.baby_wolf.whine>
 原始英文：Puppy whines
-繁體中文：幼年狼嗚咽聲
+繁體中文：幼年狼嗚咽
 
 翻譯鍵：<subtitles.entity.bat.ambient>
 原始英文：Bat screeches
-繁體中文：蝙蝠聲
+繁體中文：蝙蝠尖叫聲
 
 翻譯鍵：<subtitles.entity.bat.death>
 原始英文：Bat dies
@@ -30342,7 +30342,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.bat.takeoff>
 原始英文：Bat takes off
-繁體中文：蝙蝠飛翔聲
+繁體中文：蝙蝠飛翔
 
 翻譯鍵：<subtitles.entity.bee.ambient>
 原始英文：Bee buzzes
@@ -30546,7 +30546,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.cat.ambient>
 原始英文：Cat meows
-繁體中文：貓叫聲
+繁體中文：貓喵喵叫
 
 翻譯鍵：<subtitles.entity.cat.beg_for_food>
 原始英文：Cat begs
@@ -30574,7 +30574,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.chicken.ambient>
 原始英文：Chicken clucks
-繁體中文：雞叫聲
+繁體中文：雞咯咯叫
 
 翻譯鍵：<subtitles.entity.chicken.death>
 原始英文：Chicken dies
@@ -30662,7 +30662,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.cow.ambient>
 原始英文：Cow moos
-繁體中文：牛哞聲
+繁體中文：牛哞哞叫
 
 翻譯鍵：<subtitles.entity.cow.death>
 原始英文：Cow dies
@@ -30846,7 +30846,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.elder_guardian.ambient>
 原始英文：Elder Guardian moans
-繁體中文：遠古深海守衛叫聲
+繁體中文：遠古深海守衛低鳴
 
 翻譯鍵：<subtitles.entity.elder_guardian.ambient_land>
 原始英文：Elder Guardian flaps
@@ -30870,7 +30870,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.ender_dragon.ambient>
 原始英文：Dragon roars
-繁體中文：終界龍咆哮聲
+繁體中文：終界龍咆哮
 
 翻譯鍵：<subtitles.entity.ender_dragon.death>
 原始英文：Dragon dies
@@ -30878,7 +30878,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.ender_dragon.flap>
 原始英文：Dragon flaps
-繁體中文：終界龍擊翅聲
+繁體中文：終界龍振翅
 
 翻譯鍵：<subtitles.entity.ender_dragon.growl>
 原始英文：Dragon growls
@@ -30926,7 +30926,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.enderman.teleport>
 原始英文：Enderman teleports
-繁體中文：終界使者瞬移聲
+繁體中文：終界使者瞬移
 
 翻譯鍵：<subtitles.entity.endermite.ambient>
 原始英文：Endermite scuttles
@@ -30998,7 +30998,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.fishing_bobber.retrieve>
 原始英文：Bobber retrieved
-繁體中文：浮標收回
+繁體中文：收回浮標
 
 翻譯鍵：<subtitles.entity.fishing_bobber.splash>
 原始英文：Fishing Bobber splashes
@@ -31006,7 +31006,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.fishing_bobber.throw>
 原始英文：Bobber thrown
-繁體中文：浮標投出
+繁體中文：投出浮標
 
 翻譯鍵：<subtitles.entity.fox.aggro>
 原始英文：Fox angers
@@ -31102,7 +31102,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.generic.extinguish_fire>
 原始英文：Fire extinguishes
-繁體中文：火焰熄滅聲
+繁體中文：火焰熄滅
 
 翻譯鍵：<subtitles.entity.generic.hurt>
 原始英文：Something hurts
@@ -31126,7 +31126,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.ghast.ambient>
 原始英文：Ghast cries
-繁體中文：地獄幽靈哭泣聲
+繁體中文：地獄幽靈哭泣
 
 翻譯鍵：<subtitles.entity.ghast.death>
 原始英文：Ghast dies
@@ -31162,7 +31162,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.glow_item_frame.break>
 原始英文：Glow Item Frame broken
-繁體中文：取下螢光物品展示框
+繁體中文：破壞螢光物品展示框
 
 翻譯鍵：<subtitles.entity.glow_item_frame.place>
 原始英文：Glow Item Frame placed
@@ -31214,7 +31214,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.goat.long_jump>
 原始英文：Goat leaps
-繁體中文：山羊跳躍聲
+繁體中文：山羊跳躍
 
 翻譯鍵：<subtitles.entity.goat.milk>
 原始英文：Goat gets milked
@@ -31222,15 +31222,15 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.goat.prepare_ram>
 原始英文：Goat stomps
-繁體中文：山羊重踏聲
+繁體中文：山羊重踏
 
 翻譯鍵：<subtitles.entity.goat.ram_impact>
 原始英文：Goat rams
-繁體中文：山羊衝撞聲
+繁體中文：山羊衝撞
 
 翻譯鍵：<subtitles.entity.goat.screaming.ambient>
 原始英文：Goat bellows
-繁體中文：山羊吼叫聲
+繁體中文：山羊吼叫
 
 翻譯鍵：<subtitles.entity.goat.step>
 原始英文：Goat steps
@@ -31238,7 +31238,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.guardian.ambient>
 原始英文：Guardian moans
-繁體中文：深海守衛叫聲
+繁體中文：深海守衛低鳴
 
 翻譯鍵：<subtitles.entity.guardian.ambient_land>
 原始英文：Guardian flaps
@@ -31270,7 +31270,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.happy_ghast.equip>
 原始英文：Harness equips
-繁體中文：帽鞍裝備聲
+繁體中文：裝備帽鞍
 
 翻譯鍵：<subtitles.entity.happy_ghast.harness_goggles_down>
 原始英文：Happy Ghast is ready
@@ -31290,7 +31290,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.happy_ghast.unequip>
 原始英文：Harness unequips
-繁體中文：帽鞍卸除聲
+繁體中文：卸除帽鞍
 
 翻譯鍵：<subtitles.entity.hoglin.ambient>
 原始英文：Hoglin growls
@@ -31426,7 +31426,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.iron_golem.repair>
 原始英文：Iron Golem repaired
-繁體中文：鐵魔像修復
+繁體中文：修復鐵魔像
 
 翻譯鍵：<subtitles.entity.item_frame.add_item>
 原始英文：Item Frame fills
@@ -31434,7 +31434,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.item_frame.break>
 原始英文：Item Frame broken
-繁體中文：取下物品展示框
+繁體中文：破壞物品展示框
 
 翻譯鍵：<subtitles.entity.item_frame.place>
 原始英文：Item Frame placed
@@ -31498,7 +31498,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.llama.spit>
 原始英文：Llama spits
-繁體中文：駱馬呸
+繁體中文：駱馬噴射唾液
 
 翻譯鍵：<subtitles.entity.llama.step>
 原始英文：Llama steps
@@ -31622,7 +31622,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.nautilus.riding>
 原始英文：Nautilus bubbles
-繁體中文：鸚鵡螺吐出氣泡
+繁體中文：鸚鵡螺吐泡
 
 翻譯鍵：<subtitles.entity.nautilus.swim>
 原始英文：Nautilus swims
@@ -31898,7 +31898,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.pig.ambient>
 原始英文：Pig oinks
-繁體中文：豬叫聲
+繁體中文：豬哼叫
 
 翻譯鍵：<subtitles.entity.pig.death>
 原始英文：Pig dies
@@ -31998,7 +31998,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.player.attack.crit>
 原始英文：Critical attack
-繁體中文：暴擊
+繁體中文：爆擊
 
 翻譯鍵：<subtitles.entity.player.attack.knockback>
 原始英文：Knockback attack
@@ -32018,7 +32018,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.player.burp>
 原始英文：Burp
-繁體中文：打嗝
+繁體中文：玩家打嗝
 
 翻譯鍵：<subtitles.entity.player.death>
 原始英文：Player dies
@@ -32074,7 +32074,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.potion.throw>
 原始英文：Bottle thrown
-繁體中文：擲瓶聲
+繁體中文：擲出瓶子
 
 翻譯鍵：<subtitles.entity.puffer_fish.blow_out>
 原始英文：Pufferfish deflates
@@ -32166,7 +32166,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.sheep.ambient>
 原始英文：Sheep baahs
-繁體中文：綿羊叫聲
+繁體中文：綿羊咩咩叫
 
 翻譯鍵：<subtitles.entity.sheep.death>
 原始英文：Sheep dies
@@ -33082,7 +33082,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.item.armor.equip_nautilus>
 原始英文：Nautilus Armor equips
-繁體中文：鸚鵡螺鎧裝備聲
+繁體中文：裝上鸚鵡螺鎧
 
 翻譯鍵：<subtitles.item.armor.equip_netherite>
 原始英文：Netherite armor clanks
@@ -33098,7 +33098,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.item.armor.unequip_nautilus>
 原始英文：Nautilus Armor unequips
-繁體中文：鸚鵡螺鎧卸除聲
+繁體中文：卸除鸚鵡螺鎧
 
 翻譯鍵：<subtitles.item.armor.unequip_wolf>
 原始英文：Wolf Armor snips away
@@ -33166,7 +33166,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.item.bucket.fill_axolotl>
 原始英文：Axolotl scooped
-繁體中文：六角恐龍被撈起
+繁體中文：鈍口螈被撈起
 
 翻譯鍵：<subtitles.item.bucket.fill_fish>
 原始英文：Fish captured
@@ -34138,11 +34138,11 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<test.player.coordinates>
 原始英文：Player coordinates: [%s, %s, %s] in %s
-繁體中文：玩家座標：[%s, %s, %s]，位於 %s
+繁體中文：玩家座標：%s, %s, %s，位於 %s
 
 翻譯鍵：<test.run.coordinates>
 原始英文：Test coordinates: [%s, %s, %s] in %s
-繁體中文：測試座標：[%s, %s, %s]，位於 %s
+繁體中文：測試座標：%s, %s, %s，位於 %s
 
 翻譯鍵：<title.32bit.deprecation>
 原始英文：32-bit system detected: this may prevent you from playing in the future as a 64-bit system will be required!
@@ -34346,7 +34346,7 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<tutorial.bundleInsert.description>
 原始英文：Right Click to add items
-繁體中文：按下右鍵以放入物品
+繁體中文：點擊右鍵以放入物品
 
 翻譯鍵：<tutorial.bundleInsert.title>
 原始英文：Use a Bundle
