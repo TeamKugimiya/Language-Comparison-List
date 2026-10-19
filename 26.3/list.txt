@@ -14016,15 +14016,15 @@ You can either try to load it with only the vanilla data pack ("Safe Mode"), or 
 
 翻譯鍵：<death.attack.sulfurCubeHot>
 原始英文：%1$s died because not just the floor is lava
-繁體中文：%1$s 察覺不只有地面是熔岩
+繁體中文：%1$s 察覺不只有地面可以是熔岩
 
 翻譯鍵：<death.attack.sulfurCubeHot.item>
 原始英文：%2$s showed %1$s that not just the floor is lava using %3$s
-繁體中文：%2$s 用 %3$s 讓 %1$s 察覺不只有地面是熔岩
+繁體中文：%2$s 用 %3$s 讓 %1$s 察覺不只有地面可以是熔岩
 
 翻譯鍵：<death.attack.sulfurCubeHot.player>
 原始英文：%2$s showed %1$s that not just the floor is lava
-繁體中文：%2$s 讓 %1$s 察覺不只有地面是熔岩
+繁體中文：%2$s 讓 %1$s 察覺不只有地面可以是熔岩
 
 翻譯鍵：<death.attack.sweetBerryBush>
 原始英文：%1$s was poked to death by a sweet berry bush
@@ -17180,7 +17180,7 @@ Our team will review it as soon as possible.
 
 翻譯鍵：<gui.friends.confirm_unfriend>
 原始英文：Are you sure you want to remove this player from your Friends List?
-繁體中文：你確定要從好友清單中移除這位玩家嗎？
+繁體中文：你確定要從好友清單中移除這名玩家嗎？
 
 翻譯鍵：<gui.friends.copy_to_clipboard>
 原始英文：Copy to Clipboard
@@ -17708,19 +17708,19 @@ If they don't update, restart the game.
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.chat_disabled_or_blocked>
 原始英文：This player can't be reported because chat is disabled or blocked
-繁體中文：由於聊天功能已停用或被封鎖，無法檢舉該玩家
+繁體中文：由於聊天功能已停用或被封鎖，無法檢舉這名玩家
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.disabled>
 原始英文：The reporting service is unavailable
-繁體中文：檢舉服務目前無法使用
+繁體中文：檢舉服務目前無法使用。
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.no_messages>
 原始英文：No reportable messages from player %s
-繁體中文：玩家 %s 沒有可以檢舉的訊息
+繁體中文：玩家 %s 沒有可以檢舉的訊息。
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.not_reportable>
 原始英文：This player can't be reported, because their chat messages can't be verified on this server
-繁體中文：無法檢舉此玩家，因為此伺服器無法驗證該玩家的聊天訊息
+繁體中文：無法檢舉這名玩家，因為這個伺服器無法驗證該玩家的聊天訊息
 
 翻譯鍵：<gui.socialInteractions.tooltip.show>
 原始英文：Show messages
@@ -21540,7 +21540,7 @@ Jigsaws will be processed in descending priority with random ordering breaking t
 
 翻譯鍵：<key.friends>
 原始英文：Friends Screen
-繁體中文：好友畫面
+繁體中文：好友
 
 翻譯鍵：<key.fullscreen>
 原始英文：Toggle Fullscreen
@@ -24744,7 +24744,7 @@ Reason: %s
 
 翻譯鍵：<multiplayer.disconnect.flying>
 原始英文：Flying is not enabled on this server
-繁體中文：此伺服器並沒有啟用飛行
+繁體中文：這個伺服器並沒有啟用飛行
 
 翻譯鍵：<multiplayer.disconnect.generic>
 原始英文：Disconnected
@@ -24846,7 +24846,7 @@ Please contact a server operator.
 
 翻譯鍵：<multiplayer.disconnect.transfers_disabled>
 原始英文：This server does not accept transfers
-繁體中文：伺服器不接受轉移
+繁體中文：這個伺服器不接受轉移
 
 翻譯鍵：<multiplayer.disconnect.unexpected_query_response>
 原始英文：Unexpected custom data from client
@@ -24898,15 +24898,15 @@ Please contact a server operator.
 
 翻譯鍵：<multiplayer.requiredTexturePrompt.disconnect>
 原始英文：This server requires a custom resource pack
-繁體中文：伺服器要求使用其自訂的資源包
+繁體中文：這個伺服器要求使用其自訂的資源包
 
 翻譯鍵：<multiplayer.requiredTexturePrompt.line1>
 原始英文：This server requires the use of a custom resource pack.
-繁體中文：此伺服器要求使用其自訂的資源包。
+繁體中文：這個伺服器要求使用其自訂的資源包。
 
 翻譯鍵：<multiplayer.requiredTexturePrompt.line2>
 原始英文：Rejecting this custom resource pack will disconnect you from this server.
-繁體中文：拒絕此自訂資源包將使你和伺服器的連線中斷。
+繁體中文：拒絕這個自訂資源包將使你與該伺服器中斷連線。
 
 翻譯鍵：<multiplayer.socialInteractions.not_available>
 原始英文：Social Interactions are only available in Multiplayer worlds
@@ -25010,7 +25010,7 @@ Please contact a server operator.
 
 翻譯鍵：<multiplayer.texturePrompt.line1>
 原始英文：This server recommends the use of a custom resource pack.
-繁體中文：此伺服器建議使用其自訂的資源包。
+繁體中文：這個伺服器建議使用其自訂的資源包。
 
 翻譯鍵：<multiplayer.texturePrompt.line2>
 原始英文：Would you like to download and install it automagically?
@@ -25032,7 +25032,7 @@ Message from server:
 
 翻譯鍵：<multiplayer.unsecureserver.toast>
 原始英文：Messages sent on this server may be modified and might not reflect the original message
-繁體中文：此伺服器中的聊天訊息可能經過修改，無法反映出原始的訊息
+繁體中文：這個伺服器中的聊天訊息可能經過修改，無法反映出原始的訊息
 
 翻譯鍵：<multiplayer.unsecureserver.toast.title>
 原始英文：Chat messages can't be verified
@@ -25040,7 +25040,7 @@ Message from server:
 
 翻譯鍵：<multiplayerWarning.check>
 原始英文：Do not show this screen again
-繁體中文：不再顯示此畫面
+繁體中文：不再顯示這個畫面
 
 翻譯鍵：<multiplayerWarning.header>
 原始英文：Caution: Third-Party Online Play
@@ -25664,11 +25664,11 @@ Message from server:
 
 翻譯鍵：<options.accessibility.narrator_hotkey.mac.tooltip>
 原始英文：Allows the Narrator to be toggled on and off with 'Cmd + B'.
-繁體中文：允許使用「Cmd + B」開啟及關閉朗讀功能。
+繁體中文：允許使用「Command + B」開啟及關閉朗讀功能。
 
 翻譯鍵：<options.accessibility.narrator_hotkey.tooltip>
 原始英文：Allows the Narrator to be toggled on and off with 'Ctrl + B'.
-繁體中文：允許使用「Ctrl + B」開啟及關閉朗讀功能。
+繁體中文：允許使用「Control + B」開啟及關閉朗讀功能。
 
 翻譯鍵：<options.accessibility.panorama_speed>
 原始英文：Panorama Scroll Speed
@@ -25712,7 +25712,7 @@ Message from server:
 
 翻譯鍵：<options.allowFriendRequests.tooltip>
 原始英文：Allow other players to send you friend requests
-繁體中文：允許其他玩家向你傳送好友邀請
+繁體中文：允許其他玩家向你傳送好友邀請。
 
 翻譯鍵：<options.allowServerListing>
 原始英文：Allow Server Listings
@@ -26378,7 +26378,7 @@ This will impact GPU performance.
 
 翻譯鍵：<options.inGameNotification.tooltip>
 原始英文：Show Friend notifications in-game
-繁體中文：在遊戲內顯示好友通知
+繁體中文：在遊戲內顯示好友通知。
 
 翻譯鍵：<options.invertMouse>
 原始英文：Invert Mouse
@@ -28128,7 +28128,7 @@ It might be possible to restore the world from an older state or you can report 
 
 翻譯鍵：<selectWorld.backupQuestion.experimental>
 原始英文：Worlds using Experimental Settings are not supported
-繁體中文：不支援使用實驗性設定的世界
+繁體中文：使用實驗性設定的世界不受支援
 
 翻譯鍵：<selectWorld.backupQuestion.file_fixing_required>
 原始英文：Create a backup before upgrading this world?
@@ -28176,7 +28176,7 @@ It might be possible to restore the world from an older state or you can report 
 
 翻譯鍵：<selectWorld.conversion.tooltip>
 原始英文：This world must be opened in an older version (like 1.6.4) to be safely converted.
-繁體中文：此世界必須先以較舊的版本（如 1.6.4）開啟後才能安全轉換
+繁體中文：這個世界必須先以較舊的版本（例如 1.6.4）開啟後才能安全轉換。
 
 翻譯鍵：<selectWorld.create>
 原始英文：Create New World
@@ -29114,7 +29114,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<stat.minecraft.sleep_in_bed>
 原始英文：Times Slept in a Bed
-繁體中文：睡覺次數
+繁體中文：在床上睡覺次數
 
 翻譯鍵：<stat.minecraft.sleep_in_straw_bed>
 原始英文：Times Slept in a Straw Bed
