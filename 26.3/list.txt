@@ -26090,7 +26090,7 @@ With this option off, your name will not show up in such lists.
 
 翻譯鍵：<options.framerate>
 原始英文：%s fps
-繁體中文：%s fps
+繁體中文：%s FPS
 
 翻譯鍵：<options.framerateLimit>
 原始英文：Max Framerate
@@ -31370,7 +31370,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.husk.converted_to_zombie>
 原始英文：Husk converts to Zombie
-繁體中文：屍殼轉變為殭屍
+繁體中文：屍殼轉化為殭屍
 
 翻譯鍵：<subtitles.entity.husk.death>
 原始英文：Husk dies
@@ -32998,7 +32998,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<subtitles.entity.zombie.converted_to_drowned>
 原始英文：Zombie converts to Drowned
-繁體中文：殭屍轉變為沉屍
+繁體中文：殭屍轉化為沉屍
 
 翻譯鍵：<subtitles.entity.zombie.death>
 原始英文：Zombie dies
@@ -33738,7 +33738,7 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<telemetry.property.p2p_connection_signaling_time_ms.title>
 原始英文：Signaling Connection Time (Milliseconds)
-繁體中文：信令連線時間（毫秒）
+繁體中文：訊令連線時間（毫秒）
 
 翻譯鍵：<telemetry.property.p2p_connection_successful.title>
 原始英文：Connection Successful
