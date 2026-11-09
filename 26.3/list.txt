@@ -24014,11 +24014,11 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.selectServer.joinCode>
 原始英文：Join Code
-繁體中文：加入代碼
+繁體中文：邀請碼
 
 翻譯鍵：<mco.selectServer.joinCode.hint>
 原始英文：Enter join code
-繁體中文：輸入加入代碼
+繁體中文：輸入邀請碼
 
 翻譯鍵：<mco.selectServer.joinCode.invalid>
 原始英文：The code you entered is invalid.
@@ -24030,7 +24030,7 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.selectServer.joinCode.title>
 原始英文：Enter Join Code
-繁體中文：輸入加入代碼
+繁體中文：輸入邀請碼
 
 翻譯鍵：<mco.selectServer.joinCode.validating>
 原始英文：Validating code
@@ -26326,7 +26326,7 @@ You may ignore this and continue, however support will not be provided for your 
 原始英文：3rd-party Servers may send chat messages in non-standard formats.
 With this option on, hidden players will be matched based on chat sender names.
 繁體中文：第三方伺服器可能會傳送非標準格式的聊天訊息。
-開啟此選項後，將會依據發言者的名稱相符與否來隱藏玩家。
+開啟此選項後，將會依據發言者的名稱相符與否來靜音玩家。
 
 翻譯鍵：<options.hideSplashTexts>
 原始英文：Hide Splash Texts
