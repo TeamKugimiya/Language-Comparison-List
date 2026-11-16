@@ -11266,11 +11266,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.effect.clear.everything.failed>
 原始英文：Target has no effects to remove
-繁體中文：該對象沒有可以移除的效果
+繁體中文：目標沒有可以移除的效果
 
 翻譯鍵：<commands.effect.clear.everything.success.multiple>
 原始英文：Removed every effect from %s targets
-繁體中文：已移除 %s 個對象上的所有效果
+繁體中文：已移除 %s 個目標上的所有效果
 
 翻譯鍵：<commands.effect.clear.everything.success.single>
 原始英文：Removed every effect from %s
@@ -11278,11 +11278,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.effect.clear.specific.failed>
 原始英文：Target doesn't have the requested effect
-繁體中文：該對象沒有你指定的效果
+繁體中文：目標不具有指定的效果
 
 翻譯鍵：<commands.effect.clear.specific.success.multiple>
 原始英文：Removed effect %s from %s targets
-繁體中文：已移除 %2$s 個對象身上的 %1$s 效果
+繁體中文：已移除 %2$s 個目標身上的 %1$s 效果
 
 翻譯鍵：<commands.effect.clear.specific.success.single>
 原始英文：Removed effect %s from %s
@@ -11290,11 +11290,11 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.effect.give.failed>
 原始英文：Unable to apply this effect (target is either immune to effects, or has something stronger)
-繁體中文：無法套用這項效果（該對象不受效果影響，或已有其他更強的效果）
+繁體中文：無法套用這項效果（該目標不受效果影響，或已有其他更強的效果）
 
 翻譯鍵：<commands.effect.give.success.multiple>
 原始英文：Applied effect %s to %s targets
-繁體中文：已將 %s 效果作用於 %s 個對象
+繁體中文：已將 %s 效果作用於 %s 個目標
 
 翻譯鍵：<commands.effect.give.success.single>
 原始英文：Applied effect %s to %s
@@ -11302,7 +11302,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.enchant.failed>
 原始英文：Nothing changed. Targets either have no item in their hands or the enchantment could not be applied
-繁體中文：未進行任何變更。對象手中沒有物品或是無法套用這項附魔
+繁體中文：未進行任何變更。目標手中沒有物品或是無法套用這項附魔
 
 翻譯鍵：<commands.enchant.failed.entity>
 原始英文：%s is not a valid entity for this command
@@ -11670,27 +11670,27 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.item.target.failed>
 原始英文：No targets accepted items into specified slots
-繁體中文：沒有任何對象的指定欄位接收到物品
+繁體中文：沒有任何目標的指定欄位接收到物品
 
 翻譯鍵：<commands.item.target.failed.known_item>
 原始英文：No targets accepted item %s into specified slots
-繁體中文：沒有任何對象的指定欄位接收到物品 %s
+繁體中文：沒有任何目標的指定欄位接收到物品 %s
 
 翻譯鍵：<commands.item.target.no_changed.known_item>
 原始英文：No targets accepted item %s into slot %s
-繁體中文：沒有任何對象的 %2$s 欄位接收到物品 %1$s
+繁體中文：沒有任何目標的 %2$s 欄位接收到物品 %1$s
 
 翻譯鍵：<commands.item.target.no_changes>
 原始英文：No targets accepted item into slot %s
-繁體中文：沒有任何對象的 %s 欄位接收到物品
+繁體中文：沒有任何目標的 %s 欄位接收到物品
 
 翻譯鍵：<commands.item.target.no_such_slot>
 原始英文：The target does not have slot %s
-繁體中文：該對象沒有 %s 欄位
+繁體中文：目標沒有 %s 欄位
 
 翻譯鍵：<commands.item.target.no_such_slot.unnamed>
 原始英文：The target does not have specified slots
-繁體中文：該對象沒有指定的欄位
+繁體中文：目標沒有指定的欄位
 
 翻譯鍵：<commands.item.target.not_a_container>
 原始英文：Target position %s, %s, %s is not a container
@@ -12498,7 +12498,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.tag.add.failed>
 原始英文：Target either already has the tag or has too many tags
-繁體中文：該對象已擁有此標籤或擁有過多標籤
+繁體中文：指定的目標已擁有此標籤或擁有過多標籤
 
 翻譯鍵：<commands.tag.add.success.multiple>
 原始英文：Added tag '%s' to %s entities
@@ -12526,7 +12526,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.tag.remove.failed>
 原始英文：Target does not have this tag
-繁體中文：該對象沒有這個標籤
+繁體中文：指定的目標沒有這個標籤
 
 翻譯鍵：<commands.tag.remove.success.multiple>
 原始英文：Removed tag '%s' from %s entities
@@ -17308,7 +17308,7 @@ Try again later.
 
 翻譯鍵：<gui.friends.my_profile_name.narration>
 原始英文：Copy profile name %s to clipboard
-繁體中文：將玩家檔案名稱 %s 複製到剪貼簿
+繁體中文：將個人檔案名稱 %s 複製到剪貼簿
 
 翻譯鍵：<gui.friends.narration.button.accept>
 原始英文：Press enter to accept friend request from %s
@@ -20428,7 +20428,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.smithing_template.ingredients>
 原始英文：Ingredients:
-繁體中文：原材料：
+繁體中文：原物料：
 
 翻譯鍵：<item.minecraft.smithing_template.netherite_upgrade.additions_slot_description>
 原始英文：Add Netherite Ingot
@@ -21172,7 +21172,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<itemGroup.ingredients>
 原始英文：Ingredients
-繁體中文：原材料
+繁體中文：原物料
 
 翻譯鍵：<itemGroup.inventory>
 原始英文：Survival Inventory
@@ -23862,7 +23862,7 @@ Go to Profile on minecraft.net to transfer your subscription.
 
 翻譯鍵：<mco.pdp.minigames.title>
 原始英文：Minigames - Free creator content
-繁體中文：小遊戲 ─ 免費創作者內容
+繁體中文：小遊戲 ─ 免費的創作者內容
 
 翻譯鍵：<mco.pdp.private.backups>
 原始英文：• Automatic backups
@@ -24670,7 +24670,7 @@ Command: %s
 原始英文：You are trying to execute a command that will send chat messages using your name.
 It can only be run from the chat screen.
 Command: %s
-繁體中文：你嘗試執行的指令將使用你的名稱傳送聊天訊息。
+繁體中文：你嘗試執行的指令將使用你的名稱送出聊天訊息。
 該指令只能從聊天欄執行。
 指令：%s
 
@@ -25372,7 +25372,7 @@ Message from server:
 
 翻譯鍵：<narration.component_list.usage>
 原始英文：Press Tab to navigate to the next element
-繁體中文：按 Tab 移動到下一個元素
+繁體中文：按下 Tab 移到下一個元素
 
 翻譯鍵：<narration.cycle_button.usage.focused>
 原始英文：Press Enter to switch to %s
@@ -25400,7 +25400,7 @@ Message from server:
 
 翻譯鍵：<narration.recipe>
 原始英文：Recipe for %s
-繁體中文：%s 的合成配方
+繁體中文：%s 的配方
 
 翻譯鍵：<narration.recipe.usage>
 原始英文：Left click to select
@@ -25412,11 +25412,11 @@ Message from server:
 
 翻譯鍵：<narration.selection.usage>
 原始英文：Press the up and down buttons to move to another entry
-繁體中文：按上下方向鍵移動到其他項目
+繁體中文：使用上下方向鍵移動到其他項目
 
 翻譯鍵：<narration.slider.usage.focused>
 原始英文：Press the left or right keyboard buttons to change the value
-繁體中文：按下左右方向鍵調整數值
+繁體中文：使用左右方向鍵調整數值
 
 翻譯鍵：<narration.slider.usage.focused.keyboard_cannot_change_value>
 原始英文：Press Enter to start changing the slider value
