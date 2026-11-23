@@ -10662,7 +10662,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<command.trailing_data>
 原始英文：Trailing data found: %s
-繁體中文：發現尾隨資料：%s
+繁體中文：發現尾隨資料 '%s'
 
 翻譯鍵：<command.unknown.argument>
 原始英文：Incorrect argument for command
@@ -11078,7 +11078,7 @@ Maybe consider staying away from villages for the time being...
 
 翻譯鍵：<commands.data.modify.invalid_substring>
 原始英文：Invalid substring indices: %s to %s
-繁體中文：無效的子字串索引：%s 至 %s
+繁體中文：無效的子字串索引 '%s' 至 '%s'
 
 翻譯鍵：<commands.data.storage.get>
 原始英文：%s in storage %s after scale factor of %s is %s
@@ -17192,7 +17192,7 @@ Our team will review it as soon as possible.
 
 翻譯鍵：<gui.friends.empty_nickname>
 原始英文：Enter a valid profile name before sending a friend request
-繁體中文：傳送好友邀請前，請先輸入有效的玩家檔案名稱
+繁體中文：傳送好友邀請前，請先輸入有效的玩家檔案名稱。
 
 翻譯鍵：<gui.friends.empty_state>
 原始英文：Friends you add will be listed here.
@@ -17220,7 +17220,7 @@ Check your internet connection and try again.
 
 翻譯鍵：<gui.friends.error.failed.message>
 原始英文：Unable to send your friend request right now
-繁體中文：目前無法傳送好友邀請
+繁體中文：目前無法傳送好友邀請。
 
 翻譯鍵：<gui.friends.error.forbidden.message>
 原始英文：Failed to perform this friend action. It may be due to the account's privacy settings.
@@ -17260,7 +17260,7 @@ Try again later.
 
 翻譯鍵：<gui.friends.error.user_may_lack_active_profile>
 原始英文：There is no player with this profile name
-繁體中文：找不到使用這個檔案名稱的玩家
+繁體中文：找不到使用這個檔案名稱的玩家。
 
 翻譯鍵：<gui.friends.join>
 原始英文：Join
@@ -17708,7 +17708,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.chat_disabled_or_blocked>
 原始英文：This player can't be reported because chat is disabled or blocked
-繁體中文：由於聊天功能已停用或被封鎖，無法檢舉這名玩家
+繁體中文：無法檢舉這名玩家，因為聊天功能已停用或被封鎖。
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.disabled>
 原始英文：The reporting service is unavailable
@@ -17720,7 +17720,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<gui.socialInteractions.tooltip.report.not_reportable>
 原始英文：This player can't be reported, because their chat messages can't be verified on this server
-繁體中文：無法檢舉這名玩家，因為這個伺服器無法驗證該玩家的聊天訊息
+繁體中文：無法檢舉這名玩家，因為這個伺服器無法驗證該玩家的聊天訊息。
 
 翻譯鍵：<gui.socialInteractions.tooltip.show>
 原始英文：Show messages
@@ -19532,7 +19532,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.music_disc_bounce.desc>
 原始英文：fingerspit - Bounce
-繁體中文：fingerspit - Bounce
+繁體中文：
 
 翻譯鍵：<item.minecraft.music_disc_cat>
 原始英文：Music Disc
@@ -19580,7 +19580,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.music_disc_lava_chicken.desc>
 原始英文：Hyper Potions - Lava Chicken
-繁體中文：Hyper Potions - Lava Chicken
+繁體中文：
 
 翻譯鍵：<item.minecraft.music_disc_mall>
 原始英文：Music Disc
@@ -19652,7 +19652,7 @@ If they don't update, restart the game.
 
 翻譯鍵：<item.minecraft.music_disc_tears.desc>
 原始英文：Amos Roddy - Tears
-繁體中文：Amos Roddy - Tears
+繁體中文：
 
 翻譯鍵：<item.minecraft.music_disc_wait>
 原始英文：Music Disc
@@ -24514,7 +24514,7 @@ If this screen prevents you from playing, you can also disconnect from the curre
 
 翻譯鍵：<menu.playerReporting.no_players>
 原始英文：There are no players to report in this world
-繁體中文：這個世界中沒有可檢舉的玩家
+繁體中文：這個世界中沒有可檢舉的玩家。
 
 翻譯鍵：<menu.preparingSpawn>
 原始英文：Preparing spawn area: %s%%
@@ -28718,7 +28718,7 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<snbt.parser.invalid_codepoint>
 原始英文：Invalid Unicode character value: %s
-繁體中文：無效的 Unicode 字元編碼：%s
+繁體中文：無效的 Unicode 字元編碼 '%s'
 
 翻譯鍵：<snbt.parser.invalid_string_contents>
 原始英文：Invalid string contents
@@ -28734,11 +28734,11 @@ Running out of disk space while in game can lead to your world being damaged.
 
 翻譯鍵：<snbt.parser.no_such_operation>
 原始英文：No such operation: %s
-繁體中文：不存在的操作：%s
+繁體中文：不存在的操作 '%s'
 
 翻譯鍵：<snbt.parser.number_parse_failure>
 原始英文：Failed to parse number: %s
-繁體中文：無法剖析數字：%s
+繁體中文：無法剖析數字 '%s'
 
 翻譯鍵：<snbt.parser.undescore_not_allowed>
 原始英文：Underscore characters are not allowed at the start or end of a number
@@ -34038,7 +34038,7 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<test.error.invalid_block_type>
 原始英文：Unexpected block type found: %s
-繁體中文：找到非預期的方塊類型：%s
+繁體中文：找到非預期的方塊類型 '%s'
 
 翻譯鍵：<test.error.missing_block_entity>
 原始英文：Missing block entity
@@ -34134,7 +34134,7 @@ The duration (in seconds and ticks) is measured when a world session has ended (
 
 翻譯鍵：<test.error.wrong_block_entity>
 原始英文：Wrong block entity type: %s
-繁體中文：錯誤的方塊實體類型：%s
+繁體中文：錯誤的方塊實體類型 '%s'
 
 翻譯鍵：<test.player.coordinates>
 原始英文：Player coordinates: [%s, %s, %s] in %s
@@ -34486,7 +34486,7 @@ We encountered issues when cleaning up outdated data, therefore the name of the 
 
 翻譯鍵：<upgradeWorld.progress.type.region>
 原始英文：Upgrading regions
-繁體中文：正在升級區域
+繁體中文：
 
 翻譯鍵：<upgradeWorld.symlink.message>
 原始英文：The selected world contains symbolic links.
